@@ -1,0 +1,19 @@
+{
+  "name": "jowood",
+  "version": "1.0.0",
+  "description": "Project for 3D wooden floors making company",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chedaivanovic/jowood.git"
+  },
+  "author": "Cedomir Ivanovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chedaivanovic/jowood/issues"
+  },
+  "homepage": "https://github.com/chedaivanovic/jowood#readme"
+}

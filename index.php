@@ -28,31 +28,6 @@ include('inc/body-before.php');
     </div>
 </section>
 
-<section class="homepage-products">
-    <div class="wrapper">
-        <div class="row">
-            <article class="col-6 col-md-4">
-
-            </article>
-            <article class="col-6 col-md-4">
-
-            </article>
-            <article class="col-6 col-md-4">
-
-            </article>
-            <article class="col-6 col-md-4">
-
-            </article>
-            <article class="col-6 col-md-4">
-
-            </article>
-            <article class="col-6 col-md-4">
-
-            </article>
-        </div>
-    </div>
-</section>
-
 <section id="services">
     <div class="wrapper">
         <div id="services-main-box">

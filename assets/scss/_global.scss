@@ -1,0 +1,66 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: $roboto;
+}
+a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0;
+  &:hover{
+    text-decoration: none;
+  }
+}
+*,
+*:hover,
+*::before,
+*::after,
+*:hover::before,
+*:hover::after {
+    transition: .3s all ease-in-out;
+}
+ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  li {
+    padding: 0;
+    margin: 0;
+  }
+}
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.cta-btn{
+  line-height: 50px;
+  border-radius: 25px;
+  padding: 0 40px;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  &-primary{
+    background: $primary;
+    color: $white;
+    &:hover{
+      background: $primary-h;
+      color: $white;
+    }
+  }
+  &-secondary{
+    background: $black;
+    color: $white;
+    &:hover{
+      background: $black-h;
+      color: $white;
+    }
+  }
+}

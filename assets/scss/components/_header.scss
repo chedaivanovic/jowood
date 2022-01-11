@@ -1,0 +1,41 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
+  #topHeader {
+    background: $black;
+    h2 {
+      color: $white;
+      font-size: 14px;
+      margin: 0;
+    }
+    line-height: 30px;
+  }
+  #mainHeader {
+    line-height: 80px;
+    #mainMenu {
+      padding: 10px 0;
+      a{
+        position: relative;
+        &::before{
+          content: '';
+          height: 4px;
+          width: 0;
+          background: $white;
+          position: absolute;
+          bottom: 0px;
+          left: 50%;
+        }
+        &:hover{
+          &::before{
+            left: 0;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

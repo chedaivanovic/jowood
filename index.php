@@ -2,7 +2,6 @@
 $pageTitle = 'Početna strana';
 $pageClass = 'home';
 include('inc/body-before.php');
-echo $_SERVER['DOCUMENT_ROOT'];
 ?>
 
 <section id="hero">

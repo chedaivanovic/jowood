@@ -35,9 +35,9 @@ include('inc/body-before.php');
                 <button class="all-services-trigger col-12 mb-3 services-trigger-active" data-target="#all-services-tab">
                     <span>
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                            <path fill="currentColor" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path>
+                            <path fill="#fff" d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"></path>
                         </svg>
-                        Naši Podovi
+                        Upoznajte naše 3D podove
                     </span>
                 </button>
             </div>
@@ -45,107 +45,72 @@ include('inc/body-before.php');
                 <div id="all-services-tab" class="">
                     <div class="row py-4">
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-services-trigger" data-target="#servis-tab">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/images/icons/servis-sampion-mehanika.svg" alt="Servis Auto Klima Sampion | Mehanika">
-                            <h4 class="text-white">Kompletan servis auto klime</h4>
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/cube.svg" alt="JoWood 3D podovi | Cube">
+                            <h4 class="text-white">Cube</h4>
                         </button>
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-services-trigger" data-target="#punjenje-tab">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/images/icons/servis-sampion-punjenje.svg" alt="Servis Auto Klima Sampion | Punjenje klime">
-                            <h4 class="text-white">Punjenje auto klime</h4>
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/flower.svg" alt="JoWood 3D podovi | Flower">
+                            <h4 class="text-white">Flower</h4>
                         </button>
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-services-trigger" data-target="#dijagnostika-tab">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/images/icons/servis-sampion-dijagnostika.svg" alt="Servis Auto Klima Sampion | Dijagnostika">
-                            <h4 class="text-white">Dijagnostika auto klime</h4>
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/hexagon.svg" alt="JoWood 3D podovi | Hexagon">
+                            <h4 class="text-white">Hexagon</h4>
                         </button>
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-services-trigger" data-target="#remont-tab">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/images/icons/servis-sampion-remont.svg" alt="Servis Auto Klima Sampion | Remont">
-                            <h4 class="text-white">Remont auto klime</h4>
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/line.svg" alt="JoWood 3D podovi | Line">
+                            <h4 class="text-white">Line</h4>
                         </button>
 
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-services-trigger" data-target="#dezinfekcija-tab">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/images/icons/servis-sampion-dezinfekcija.svg" alt="Servis Auto Klima Sampion | Dezinfekcija">
-                            <h4 class="text-white">Dezinfekcija klima sistema</h4>
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/star.svg" alt="JoWood 3D podovi | Star">
+                            <h4 class="text-white">Star</h4>
                         </button>
 
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-services-trigger" data-target="#delovi-tab">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/images/icons/servis-sampion-delovi.svg" alt="Servis Auto Klima Sampion | Delovi">
-                            <h4 class="text-white">Delovi auto klime</h4>
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/triangle.svg" alt="JoWood 3D podovi | Triangle">
+                            <h4 class="text-white">Triangle</h4>
                         </button>
                     </div>
                 </div>
                 <div id="single-service-section" class="row">
                     <div id="service-sidebar" class="col-12 col-md-3">
-                        <button class="small-services-trigger" data-target="#servis-tab"><img loading="lazy" src="assets/images/icons/servis-sampion-mehanika.svg" alt="Servis Auto Klima Sampion | Komletan servis"> <span>Servis auto klime</span></button>
-                        <button class="small-services-trigger" data-target="#punjenje-tab"><img loading="lazy" src="assets/images/icons/servis-sampion-punjenje.svg" alt="Servis Auto Klima Sampion | Punjenje klime"> <span>Punjenje auto klime</span></button>
-                        <button class="small-services-trigger" data-target="#dijagnostika-tab"><img loading="lazy" src="assets/images/icons/servis-sampion-dijagnostika.svg" alt="Servis Auto Klima Sampion | Dijagnostika stanja klime"> <span>Dijagnostika auto klime</span></button>
-                        <button class="small-services-trigger" data-target="#remont-tab"><img loading="lazy" src="assets/images/icons/servis-sampion-remont.svg" alt="Servis Auto Klima Sampion | Remont auto klime"> <span>Remont auto klime</span></button>
-                        <button class="small-services-trigger" data-target="#dezinfekcija-tab"><img loading="lazy" src="assets/images/icons/servis-sampion-dezinfekcija.svg" alt="Servis Auto Klima Sampion | Dezinfekcija sistema"> <span>Dezinfekcija klima sistema</span></button>
-                        <button class="small-services-trigger" data-target="#delovi-tab"><img loading="lazy" src="assets/images/icons/servis-sampion-delovi.svg" alt="Servis Auto Klima Sampion | Delovi za klime"> <span>Delovi auto klime</span></button>
+                        <button class="small-services-trigger" data-target="#servis-tab"><img loading="lazy" src="assets/img/icons/cube.svg" alt="JoWood 3D podovi | Cube"> <span>Cube</span></button>
+                        <button class="small-services-trigger" data-target="#punjenje-tab"><img loading="lazy" src="assets/img/icons/flower.svg" alt="JoWood 3D podovi | Flower"> <span>Flower</span></button>
+                        <button class="small-services-trigger" data-target="#dijagnostika-tab"><img loading="lazy" src="assets/img/icons/hexagon.svg" alt="JoWood 3D podovi | Hexagon"> <span>Hexagon</span></button>
+                        <button class="small-services-trigger" data-target="#remont-tab"><img loading="lazy" src="assets/img/icons/line.svg" alt="JoWood 3D podovi | Line"> <span>Line</span></button>
+                        <button class="small-services-trigger" data-target="#dezinfekcija-tab"><img loading="lazy" src="assets/img/icons/star.svg" alt="JoWood 3D podovi | Dezinfekcija sistema"> <span>Star</span></button>
+                        <button class="small-services-trigger" data-target="#delovi-tab"><img loading="lazy" src="assets/img/icons/triangle.svg" alt="JoWood 3D podovi | Delovi za klime"> <span>Triangle</span></button>
                     </div>
                     <div id="dynamic-services" class="col-12 col-md-9">
                         <div id="servis-tab" class="single-service-tab">
-                            <h2>Kompletan servis auto klime</h2>
-                            <p>Pod kompletnim servisom auto klime u našem servisu podrazumevamo sledeće operacije na klima sistemu:</p>
-                            <ul>
-                                <li>- Dijagnostikovanje stanja klima sistema</li>
-                                <li>- Dijagnostikovanje stanja i količine fluida u klima sistemu</li>
-                                <li>- Vađenje starog ulja i freona iz sistema profesionalnim alatima predviđenim za te operacije</li>
-                                <li>- Konektovanje sistema na za kompresiju (Provera curenja pod pritiskom na vašem klima sistemu, zamena ulja u samom kompresoru)</li>
-                                <li>- Vakumiranje sistema, ukoliko je isti u ispravnom stanju</li>
-                                <li>- Pranje spoljnih hladnjaka</li>
-                                <li>- Dezinfekcija kompletnog sistema za izduv hladnog vazduha</li>
-                                <li>- Zamena polen filtera</li>
-                                <li>- Provera rada ventilatora i strujnih elemenata - vodova</li>
-                                <li>- Sipanje novog ulja i freona u sistem</li>
-                            </ul>
-                            <p>Nakon izvršenog servisa klime, isti puštamo u rad i vršimo proveru svih parametara. Ova operacija bi po propisima bi trebalo da se vrši na svake 2 do 3 godine, radi lakšeg i rasterećenijeg rada celog sistema, smanjenja potrošnje goriva, manjeg habanja kompletnih uređaja na samom sistemu, kao i radi efikasnijeg rada klima sistema.</p>
+                            <h2>Cube</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <a href="" class="view-more">Pogledajte više...</a>
                         </div>
                         <div id="punjenje-tab" class="single-service-tab">
-                            <h2>Punjenje auto klime</h2>
-                            <p>Prema propisanim intervalima za održavanje klima sistema, kontrola količine freona i ulja u sistemu trebala bi
-                                da se vrši na svake 2 godine tj. pred početak svake druge letnje sezone. Kod nas u servisu ovaj proces je potpuno
-                                automatizovan i vrši se isključivo profesionalnim uređajima (klima centrima) najnovije generacije. Naše klima stanice
-                                imaju bazu podataka za svaki tip vozila, koja sadrži informacije o tačnoj količini freona (R-134a), ulja za podmazivanje
-                                sistema, kao i UV boje koja služi za proveru curenja sistema u slučaju kvara. Ceo proces traje od 15 do 20 minuta u zavisnosti od tipa vozila.</p>
-                            <p>Samo sistem održavan prema tačnim propisima količine ubačenih fluida može da radi potpuno ispravno i bez opterećenja</p>
+                            <h2>Flower</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <a href="" class="view-more">Pogledajte više...</a>
                         </div>
                         <div id="dijagnostika-tab" class="single-service-tab">
-                            <h2>Dijagnostika auto klime</h2>
-                            <p>Pre svakog punjenja ili servisiranja sistema auto klime,
-                                bitno je utvrditi tačan kvar električnog, elektronskog, mehaničkog dela sistema.
-                                Kod nas ova ispitivanja na sistemu vršimo najpouzdanijim aparatima za dijagnostikovanje kvarova.
-                                U slučaju neadekvatnog dijagnostikovanja problema, dolazi do mogućnosti da dosuti fluidi iscure iz sistema nakon kratkog vremenskog intervala.
-                                Ako želite da kvar bude brzo otklonjen i da nema dodatnih troškova, jedini način da to postignete je pravilno dijagnostikovanje istog.</p>
+                            <h2>Hexagon</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <a href="" class="view-more">Pogledajte više...</a>
                         </div>
                         <div id="remont-tab" class="single-service-tab">
-                            <h2>Remont auto klime</h2>
-                            <p>Jedni od čestih kvarova na klima sistemu su curenje freona, nedovoljan pritisak u klima sistemu,
-                                kvarovi električnog i elektronskog sklopa. To se dešava usled neprofesionalnog dolivanja fluida u sistem,
-                                koje se vrši ne adekvatnim mašinama kao i zbog poroznosti creva, koje se dešava usled neadekvatnog ili
-                                neredovnog održavanja sistema. Kvarovi vezani za pritisak nastaju zbog oštećenja kompresora koja mogu nastati iz sledećih razloga:</p>
-                            <ul>
-                                <li> - neadekvatnog ulja.</li>
-                                <li> - nedovoljne količine ulja.</li>
-                                <li> - dotrajalosti(istrošenosti) samog kompresora</li>
-                                <li> - izloženosti kompresora nepovoljnim faktorima kao što su vlaga i drugi fluidi.</li>
-                                <li> - mehaničkog oštećenja.</li>
-                            </ul>
-                            <p>Ukoliko se ne remontuje sistem auto klime, dopuna sistema freonom i potrebnim fluidima, neće garantovati pravilno
-                                funkcionisanje vašeg klima sistema. Zbog toga se nakon pravilnog dijagnostikovanja, pristupa remontu sistema,
-                                pa tek nakon toga dopuni freona, ulja za podmazivanje i UV boje.</p>
-                            <p>U remont sistema još spadaju i zamena seta kvačila klime tj. spojnice lagera kompresora, dihtunga i gumica, creva, kondenzatora, isparivača itd...</p>
+                            <h2>Line</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <a href="" class="view-more">Pogledajte više...</a>
                         </div>
                         <div id="dezinfekcija-tab" class="single-service-tab">
-                            <h2>Dezinfekcija sistema auto klime</h2>
-                            <p>Usled nepravilnog korišćenja auto klime i ne redovne zamene filtera polena, stvaraju se bakterije
-                                u samom sistemu za izduvavanje vazduha, koje stvaraju neprijatan miris, pa u nekim slučajevima čak mogu i uticati na vaše zdravlje.
-                                Iz tog razloga idealno stanje klima sistema se može održati dezinfekcijom kompletnog izduvnog sistema i zamenom polen filtera,
-                                jednom godišnje, a najidealnije pred početak letnje sezone. Samom dezinfekcijom sistema će te dobiti svežinu u vašem vozilu,
-                                ali i najbitnije od svega, faktor zdravstvene zaštite od bakterija iz klima sistema.</p>
+                            <h2>Star</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <a href="" class="view-more">Pogledajte više...</a>
                         </div>
                         <div id="delovi-tab" class="single-service-tab">
-                            <h2>Delovi klima sistema</h2>
-                            <p>Usled nastalih oštećenja ili dotrajalosti pojedinih delova klima sistema, nekada je potrebno zameniti iste.
-                                Naš servis sarađuje sa velikim brojem uvoznika novih delova za klima sisteme, tako da vam možemo ponuditi iste sa adekvatnim garancijama.</p>
+                            <h2>Triangle</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <a href="" class="view-more">Pogledajte više...</a>
                         </div>
                     </div>
                 </div>

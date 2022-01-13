@@ -2,6 +2,7 @@
 $pageTitle = 'Početna strana';
 $pageClass = 'home';
 include('inc/body-before.php');
+echo $_SERVER['REMOTE_ADDR'];
 ?>
 
 <section id="hero">

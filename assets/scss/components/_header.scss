@@ -1,10 +1,10 @@
 header {
-  position: fixed;
+  width: 100%;
+  z-index: 10;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  width: 100%;
-  z-index: 10;
   #topHeader {
     background: $black;
     h2 {
@@ -16,12 +16,28 @@ header {
   }
   #mainHeader {
     line-height: 80px;
+    .logo-holder {
+      img {
+        height: 70px;
+        width: auto;
+      }
+      &:hover{
+        transform: scale(1.1);
+        opacity: .8;
+      }
+      &.home-logo {
+        img {
+          height: 0;
+          width: 0;
+        }
+      }
+    }
     #mainMenu {
       padding: 10px 0;
-      a{
+      a {
         position: relative;
-        &::before{
-          content: '';
+        &::before {
+          content: "";
           height: 4px;
           width: 0;
           background: $white;
@@ -29,11 +45,23 @@ header {
           bottom: 0px;
           left: 50%;
         }
-        &:hover{
-          &::before{
+        &:hover {
+          &::before {
             left: 0;
             width: 100%;
           }
+        }
+      }
+    }
+    &.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: $black;
+      .logo-holder.home-logo {
+        img {
+          height: 70px;
+          width: auto;
         }
       }
     }

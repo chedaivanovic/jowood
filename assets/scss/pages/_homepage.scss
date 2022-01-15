@@ -72,3 +72,272 @@
     font-family: $headingFont;
   }
 }
+#floors-home {
+  background: linear-gradient(to bottom right, $primary, $primary-dark);
+  padding: 100px 0 100px;
+  &.floors-bg {
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    &::after {
+      content: "";
+      z-index: 1;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba($black, 0.7);
+      z-index: 1;
+    }
+  }
+  .wrapper {
+    position: relative;
+    z-index: 2;
+  }
+  .floors-header {
+    .all-floors-trigger {
+      background-color: #dfdfdf;
+      font-size: 20px;
+      font-weight: 300;
+      border: none;
+      line-height: 50px;
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      font-family: $headingFont;
+      span {
+        color: $primary-dark;
+        font-weight: 24px;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          height: 17px;
+          margin-right: 10px;
+          path {
+            fill: $primary-dark;
+          }
+        }
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: -15%;
+        right: 100%;
+        background: $primary-dark;
+        transition: 0.3s all ease-in-out;
+        clip-path: polygon(0 0, 42% 0, 100% 100%, 0% 100%);
+      }
+      &:hover {
+        color: #fff;
+        span {
+          color: #fff;
+          svg path {
+            fill: #fff;
+          }
+        }
+        &::before {
+          right: -15%;
+          clip-path: polygon(0 0, 96% 0, 100% 100%, 0% 100%);
+        }
+      }
+      &.floors-trigger-active {
+        background: $black;
+        color: #fff;
+        border-right: $black;
+        pointer-events: none;
+        span {
+          color: #fff;
+          svg {
+            font-size: 0;
+            visibility: hidden;
+            height: 0;
+          }
+        }
+      }
+    }
+  }
+  #floors-body {
+    #all-floors-tab {
+      height: auto;
+      padding: 50px 0;
+      opacity: 1;
+      visibility: visible;
+      overflow: initial;
+      transition: 0.3s all ease-in-out;
+      .big-floors-trigger {
+        h4 {
+          font-family: $headingFont;
+        }
+        &:hover {
+          img {
+            transform: scale(1.05);
+            filter: drop-shadow(10px 10px 10px #111);
+          }
+        }
+      }
+      &.all-floors-hidden {
+        height: 0;
+        padding: 0;
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+        transition: 0.3s all ease-in-out;
+      }
+    }
+    #single-floor-section {
+      height: 0;
+      padding: 0;
+      opacity: 0;
+      visibility: hidden;
+      overflow: hidden;
+      transition: 0.3s all ease-in-out;
+      #floor-sidebar {
+        .small-floors-trigger {
+          border: none;
+          background: none;
+          outline: none !important;
+          line-height: 60px;
+          color: #fff;
+          border-radius: 5px;
+          width: 100%;
+          overflow: hidden;
+          height: 60px;
+          display: flex;
+          margin-bottom: 15px;
+          justify-content: space-between;
+          padding: 0 15px;
+          border: 2px solid rgba($color: #fff, $alpha: 0.4);
+          svg {
+            height: 100px;
+            max-width: 100px;
+            transform: translateY(-20%);
+          }
+          @include over-md() {
+            text-align: left;
+          }
+          &:not(.current-item-showing):hover {
+            background: rgba($primary-h, 0.4);
+            svg {
+              transform: translateY(-20%) scale(1.4);
+            }
+          }
+        }
+        .current-item-showing {
+          background: #fff;
+          color: $primary-dark;
+          pointer-events: none;
+          svg .cls-1 {
+            fill: $primary-dark !important;
+          }
+        }
+      }
+      #dynamic-floors {
+        .single-floor-tab {
+          height: 0;
+          padding: 0;
+          opacity: 0;
+          visibility: hidden;
+          overflow: hidden;
+          transition: 0.5s all ease-in-out;
+          &.single-floor-tab-visible {
+            height: auto;
+            padding: 50px 20px;
+            opacity: 1;
+            visibility: visible;
+            overflow: initial;
+          }
+          h2 {
+            font-family: $headingFont;
+            color: #fff;
+            font-size: 42px;
+            font-weight: 300;
+            margin-bottom: 40px;
+          }
+          p {
+            font-size: 20px;
+            color: #fff;
+            font-weight: 300;
+            margin-bottom: 30px;
+          }
+          ul {
+            margin-bottom: 30px;
+            li {
+              font-size: 20px;
+              color: #fff;
+              font-weight: 300;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+      &.single-floor-shown {
+        height: auto;
+        padding: 20px 0;
+        opacity: 1;
+        visibility: visible;
+        overflow: initial;
+      }
+    }
+  }
+}
+.home-partners {
+  background: $white;
+  padding: 100px 0;
+  h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: $headingFont;
+    font-weight: 300;
+  }
+  .home-partners-card {
+    background: $black;
+    color: $white;
+    border-radius: 20px;
+    overflow: hidden;
+    &:hover{
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba($black, 0.3);
+    }
+    .partners-img-holder {
+      display: block;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    .home-partners-text {
+      padding: 40px 30px;
+      h4 {
+        margin-bottom: 30px;
+        font-family: $headingFont;
+      }
+      p{
+        font-weight: 300;
+        margin-bottom: 20px;
+      }
+      .partners-link{
+        padding: 0 30px;
+        display: inline-block;
+        line-height: 50px;
+        border-radius: 10px;
+        background: $primary;
+        color: $white;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 20px;
+        color: $black;
+        &:hover{
+          background: $primary-h;
+          color: $white;
+        }
+      }
+    }
+  }
+}

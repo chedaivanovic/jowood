@@ -32,7 +32,7 @@
         <div id="mainHeader">
             <div class="wrapper">
                 <div class="d-flex justify-content-between align-items-center">
-                    <a href="index.php" class="logo-holder">
+                    <a href="index.php" class="logo-holder <?php echo $pageClass == 'home' ? 'home-logo' : ''; ?>">
                         <img src="assets/img/logo/jowood-logo-white.svg" alt="Jowood Logo">
                     </a>
                     <nav id="mainMenu" class="d-flex align-items-center justify-content-between">

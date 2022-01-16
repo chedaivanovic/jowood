@@ -2,7 +2,6 @@
 $pageTitle = 'Početna strana';
 $pageClass = 'home';
 include('inc/body-before.php');
-require('functions.php');
 ?>
 
 <section id="hero">
@@ -14,7 +13,7 @@ require('functions.php');
                 <h2 class="h2 font-weight-light mb-2" data-aos="fade-right" data-aos-delay="700">Tražite najbolju podlogu za život?</h2>
                 <p class="display-4 font-weight-light mb-4" data-aos="fade-left" data-aos-delay="1400">Na pravom ste mjestu</p>
                 <span data-aos="fade-up" data-aos-delay="2100">
-                    <a class="cta-btn cta-btn-primary" href="floors.php">Pogledajte naše podove</a>
+                    <a class="cta-btn cta-btn-primary" href="products.php">Pogledajte naše podove</a>
                 </span>
             </div>
         </div>

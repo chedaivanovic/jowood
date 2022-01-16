@@ -1,14 +1,14 @@
 body {
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 44px 0 0;
   font-family: $roboto;
 }
 a {
   display: block;
   text-decoration: none;
   margin-bottom: 0;
-  &:hover{
+  &:hover {
     text-decoration: none;
   }
 }
@@ -18,7 +18,7 @@ a {
 *::after,
 *:hover::before,
 *:hover::after {
-    transition: .3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 ul {
   text-decoration: none;
@@ -38,7 +38,7 @@ ul {
   padding: 0 10px;
   margin: 0 auto;
 }
-.cta-btn{
+.cta-btn {
   line-height: 50px;
   border-radius: 10px;
   padding: 0 40px;
@@ -47,24 +47,24 @@ ul {
   font-size: 20px;
   font-weight: 300;
   display: inline-block;
-  &-primary{
+  &-primary {
     background: $primary;
     color: $white;
-    &:hover{
+    &:hover {
       background: $primary-h;
       color: $white;
     }
   }
-  &-secondary{
+  &-secondary {
     background: $black;
     color: $white;
-    &:hover{
+    &:hover {
       background: $black-h;
       color: $white;
     }
   }
 }
-.view-more-floors{
+.view-more-floors {
   background: $white;
   padding: 0 30px;
   line-height: 50px;
@@ -72,8 +72,55 @@ ul {
   color: $primary-dark;
   text-transform: uppercase;
   display: inline-block;
-  &:hover{
+  &:hover {
     background: $primary-h;
     color: $white;
   }
+}
+.breadcrumbs {
+  min-height: 200px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: 100%;
+  background-attachment: fixed;
+  h1.breadcrumb-title {
+    font-family: $headingFont;
+    position: relative;
+    color: $white;
+    z-index: 2;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba($primary-dark, $alpha: 0.7);
+  }
+}
+.input-style {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  padding: 0 10px;
+  background: $white;
+  border: none;
+  box-shadow: 0 0 5px rgba($primary-dark, $alpha: 0.3);
+  border-radius: 5px;
+  resize: none;
+  &:placeholder-shown {
+    background-color: #ededed;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba($primary-dark, $alpha: 1);
+  }
+}
+textarea.input-style {
+  min-height: 200px;
 }

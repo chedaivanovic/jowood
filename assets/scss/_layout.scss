@@ -42,3 +42,14 @@
         @content;
     }
 }
+//XL : 1200px
+@mixin under-lt() {
+    @media screen and (max-width:1399px){
+        @content;
+    }
+}
+@mixin over-lt() {
+    @media screen and (min-width:1400px){
+        @content;
+    }
+}

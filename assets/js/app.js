@@ -81,4 +81,37 @@ function myFunction() {
     } else {
         header.classList.remove("sticky");
     }
-} 
+}
+
+var fileInput = document.querySelector(".input-file"),
+    fileButton = document.querySelector(".input-file-trigger"),
+    fileReturn = document.querySelector(".file-return");
+if (fileButton) {
+    fileButton.addEventListener("keydown", function (event) {
+        if (event.keyCode == 13 || event.keyCode == 32) {
+            fileInput.focus();
+        }
+    });
+    fileButton.addEventListener("click", function (event) {
+        fileInput.focus();
+        return false;
+    });
+    fileInput.addEventListener("change", function (event) {
+        fileReturn.innerHTML = this.value;
+    });
+}
+$('.search-position-box').on('click', function () {
+    let val = $(this).attr('data-search-count');
+
+    $('#position').val(val).trigger('change');
+})
+
+
+
+
+lightbox.option({
+    'resizeDuration': 0,
+    'wrapAround': true
+})
+
+

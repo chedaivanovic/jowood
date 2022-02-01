@@ -77,32 +77,6 @@ ul {
     color: $white;
   }
 }
-.breadcrumbs {
-  min-height: 200px;
-  padding-top: 80px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  background-size: 100%;
-  background-attachment: fixed;
-  h1.breadcrumb-title {
-    font-family: $headingFont;
-    position: relative;
-    color: $white;
-    z-index: 2;
-  }
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    background-color: rgba($primary-dark, $alpha: 0.7);
-  }
-}
 .input-style {
   display: block;
   width: 100%;
@@ -123,4 +97,26 @@ ul {
 }
 textarea.input-style {
   min-height: 200px;
+}
+select.input-style{
+  height: 40px;
+}
+.section-padding{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+ul.doted-ul{
+  li{
+    position: relative;
+    padding-left: 25px;
+    &::before{
+      content: '\f192';
+      font-size: 16px;
+      font-family: 'Font Awesome 5 Free';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
 }

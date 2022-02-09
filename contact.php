@@ -62,7 +62,7 @@ require_once('forms/keys.php');
                                 $("#message").html("Unesite svoje ime.");
                                 return false;
                             }
-                            if ($("#contact-email").val() == "") {
+                            if ($("#contact-mail").val() == "") {
                                 $("#message").html("Unesite svoju email adresu.");
                                 return false;
                             }

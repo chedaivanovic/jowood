@@ -69,7 +69,6 @@ require_once('forms/keys.php');
 <script>
     function onSubmit(token) {
         var formData = $("#contact-form").serialize();
-        console.log(formData);
         $(".has-error").removeClass("has-error");
         if ($("#contact-name").val() == "") {
             $("#message").html('<div class="bg-danger text-white lead mb-3 py-2 px-4 rounded">Unesite svoje ime.</div>');

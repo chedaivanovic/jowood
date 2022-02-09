@@ -152,13 +152,25 @@ let sliderRun = () => {
 //Products page
 prodPage = document.getElementById('products-page');
 if (prodPage) {
+
     let firstMenu = document.getElementById('prod-floors-tab');
     let mainFloorsMenu = document.getElementById('main-floors-page');
     let mainTitle = document.getElementsByTagName('h1')[0];
 
     let bigBtns = document.getElementsByClassName('prod-floors-trigger');
     let smallBtns = document.getElementsByClassName('floor-trigger');
-
+    if (window.location.hash) {
+        let hashVal = window.location.hash.substr(1);
+        for (let i = 0; i < bigBtns.length; i++) {
+            let currentData = bigBtns[i].getAttribute('data-select');
+            if (hashVal == currentData) {
+                setTimeout(() => {
+                    bigBtns[i].click();
+                }, 100);
+            }
+            window.location.hash = '';
+        }
+    }
     for (let i = 0; i < bigBtns.length; i++) {
         bigBtns[i].addEventListener('click', function () {
             let selected = this.getAttribute('data-select');
@@ -212,4 +224,4 @@ mainMenuBtn.addEventListener('click', function () {
         header.classList.remove('mobile-menu-shown');
         mainMenu.classList.remove('mainMenu-open');
     }
-})
+});

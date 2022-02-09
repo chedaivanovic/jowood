@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.2">
+    <!-- captcha -->
     <?php
     require('functions.php');
     ?>

@@ -3,6 +3,7 @@ $pageTitle = 'Kontakt';
 $pageClass = 'contact';
 include('inc/body-before.php');
 createBreadcrumb($pageTitle, $pageClass);
+require_once('forms/keys.php');
 ?>
 <section id="mainContact">
     <div class="wrapper">
@@ -32,16 +33,62 @@ createBreadcrumb($pageTitle, $pageClass);
             <div class="col-12 col-md-6 px-4 d-flex">
                 <div class="contact-page-card contact-page-form-card">
                     <p class="contact-heading">Pišite nam</p>
-                    <form action="" id="contact-form">
+                    <form method="post"  action="forms/contact.php" id="contact-form">
                         <div class="row">
-                            <div class="col-12 mb-3 col-md-6"><input class="input-style" id="contact-name" placeholder="Vaše Ime *" type="text" required></div>
-                            <div class="col-12 mb-3 col-md-6"><input class="input-style" id="contact-mail" placeholder="Vaša e-mail adresa *" type="email" required></div>
-                            <div class="col-12 mb-3"><input class="input-style" id="contact-subject" placeholder="Naslov poruke *" type="text" required></div>
-                            <div class="col-12 mb-3"><textarea class="input-style" name="contact-text" id="contact-text" placeholder="Vaša poruka *" required></textarea></div>
+                            <div class="col-12 mb-3 col-md-6">
+                                <input name="name" class="input-style" id="contact-name" placeholder="Vaše Ime *" type="text" required>
+                            </div>
+                            <div class="col-12 mb-3 col-md-6">
+                                <input name="email" class="input-style" id="contact-mail" placeholder="Vaša e-mail adresa *" type="email" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <input name="subject" class="input-style" id="contact-subject" placeholder="Naslov poruke *" type="text" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <textarea class="input-style" name="msg" id="contact-text" placeholder="Vaša poruka *" required></textarea>
+                            </div>
+                            <div id="message" class="col-12"></div>
                             <div class="col-6 mb-3"></div>
-                            <div class="col-6 mb-3"><button class="btn btn-block btn-dark text-uppercase font-weight-light" type="submit"><i class="far fa-paper-plane"></i> Pošaljite</button></div>
+                            <div class="col-6 mb-3">
+                                <button class="g-recaptcha btn btn-block btn-dark text-uppercase font-weight-light" data-sitekey="<?php echo $site; ?>" data-callback="onSubmit" data-action="submit"><i class="far fa-paper-plane"></i> Pošaljite</button>
+                            </div>
                         </div>
                     </form>
+                    <script>
+                        function onSubmit(token) {
+                            var formData = $("#contact-form").serialize();
+                            $(".has-error").removeClass("has-error");
+                            if ($("#contact-name").val() == "") {
+                                $("#message").html("Unesite svoje ime.");
+                                return false;
+                            }
+                            if ($("#contact-email").val() == "") {
+                                $("#message").html("Unesite svoju email adresu.");
+                                return false;
+                            }
+                            if ($("#contact-subject").val() == "") {
+                                $("#message").html("Unesite naslov poruke.");
+                                return false;
+                            }
+                            if ($("#contact-text").val() == "") {
+                                $("#message").html("Unesite poruku.");
+                                return false;
+                            }
+                            $.ajax({
+                                url: "forms/contact.php",
+                                type: "POST",
+                                data: formData,
+                                success: function(data) {
+                                    $("#contact-form")[0].reset();
+                                    console.log(data);
+                                    $("#message").html(data);
+                                },
+                                error: function() {
+                                    alert("error handling here");
+                                }
+                            });
+                        };
+                    </script>
                 </div>
             </div>
         </div>
@@ -52,6 +99,7 @@ createBreadcrumb($pageTitle, $pageClass);
     <iframe id="googleMapJoWood" src="https://www.google.com/maps/d/u/0/embed?mid=1PQ7atWwSQsVh9qOS_UE4KUyqv5iMPHfF&ehbc=2E312F" width="" height="" frameborder="0" style="border:0" zoom="21"></iframe>
 </section>
 
+<script src="https://www.google.com/recaptcha/api.js"></script>
 <?php
 include('inc/body-after.php');
 ?>

@@ -29,18 +29,18 @@
                         <h3>Linkovi</h3>
                     </div>
                     <div class="row">
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Početna Strana</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Proizvodi</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">O JoWood-u</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Kontakt</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Partnerstvo</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Zaposlenje</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Cube | 3D Pod</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Flower | 3D Pod</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Hexagon | 3D Pod</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Line | 3D Pod</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Star | 3D Pod</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="">Triangle | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="index.php">Početna Strana</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php">Proizvodi</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="about.php">O JoWood-u</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="contact.php">Kontakt</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="partners.php">Partnerstvo</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="job.php">Zaposlenje</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#cube">Cube | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#flower">Flower | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#hexagon">Hexagon | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#line">Line | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#star">Star | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#triangle">Triangle | 3D Pod</a></div>
                     </div>
                 </div>
                 <div class="footer-info">
@@ -48,7 +48,7 @@
                         <h3>Informacije</h3>
                     </div>
                     <p class="footer-info-head"><span>JoWood D.O.O.</span><br /> Kompanija za izradu<br/>i ugradnju podova</p>
-                    <p>Neka Adresa 22 <br />78000, Banja Luka</p>
+                    <p>Skendera Kulenovića 14 <br />78000, Banja Luka</p>
                     <div><a href="mailto:office@jowood.ba"><i class="fas fa-envelope"></i> office@jowood.ba</a></div>
                     <div><a href="tel:+38766221588"><i class="fas fa-phone"></i> +387 (0) 66 / 221 - 588</a></div>
                 </div>

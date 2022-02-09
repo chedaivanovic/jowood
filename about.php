@@ -4,15 +4,15 @@ $pageClass = 'about';
 include('inc/body-before.php');
 createBreadcrumb($pageTitle, $pageClass);
 ?>
-<section id="<?php echo $pageClass; ?>-page">
-    <div class="text-section text-center text-white section-padding">
+<div id="<?php echo $pageClass; ?>-page">
+    <section class="text-section text-center text-white section-padding">
         <div class="wrapper">
             <p class="h4 font-weight-light">Mi smo pokrenuli ideju 3D parketa da bi u svijet podova od drveta donjeli novu dimenziju uredjenja vašeg doma. Primjenom novih tehnologija I uvodjenjem inovacija u sam način izrade parketa osigurali smo visok kvalitet I moderan dizajn.
                 JoWood parket je dizajniran tako da omogucava jednostavno postavljanje uz mnogo različitih mustri za slaganje. U ponudi imamo veliki izbor boja sto nam daje veliku slobodu u uredjivanju vasih interijera. Naši 3D podovi su prilagodivi svakom domu, na vama je samo da budete maštoviti.
             </p>
         </div>
-    </div>
-    <div class="gallery-section section-padding">
+    </section>
+    <section class="gallery-section section-padding">
         <div class="gallery-holder">
             <?php
             $imagesNo = 18;
@@ -23,8 +23,8 @@ createBreadcrumb($pageTitle, $pageClass);
                 </a>
             <?php endfor; ?>
         </div>
-    </div>
-    <div class="end-text-section section-padding">
+    </section>
+    <section class="end-text-section section-padding">
         <div class="wrapper">
             <ul class="doted-ul text-white">
                 <li class="h4 font-weight-light">Za proizvodnju naših 3D parketa koristimo isključivo hrast i materijale koji su takođe na prirodnoj bazi.</li>
@@ -32,8 +32,8 @@ createBreadcrumb($pageTitle, $pageClass);
                 <li class="h4 font-weight-light">Korišćenjem tehinike lameliranja drveta postigli smo visoki kvalitet i veliku tolerantnost na toplotu i vlagu.</li>
             </ul>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 
 
 <?php

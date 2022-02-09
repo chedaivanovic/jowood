@@ -1,3 +1,5 @@
+//const { each } = require("jquery");
+
 AOS.init({
     once: true
 });
@@ -106,12 +108,108 @@ $('.search-position-box').on('click', function () {
     $('#position').val(val).trigger('change');
 })
 
-
-
-
 lightbox.option({
     'resizeDuration': 0,
     'wrapAround': true
 })
+let floorTriggers = document.getElementById('floor-triggers');
+let sliderRun = () => {
+    $('#floor-triggers').slick({
+        slidesToShow: 6,
+        arrows: false,
+        dots: false,
+        responsive: [
+            {
+                breakpoint: 991,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 2,
+                    infinite: true,
+                    arrows: true
+                }
+            },
+            {
+                breakpoint: 767,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    arrows: true,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    arrows: true,
+                }
+            }
+        ]
+    });
+}
 
 
+//Products page
+prodPage = document.getElementById('products-page');
+if (prodPage) {
+    let firstMenu = document.getElementById('prod-floors-tab');
+    let mainFloorsMenu = document.getElementById('main-floors-page');
+    let mainTitle = document.getElementsByTagName('h1')[0];
+
+    let bigBtns = document.getElementsByClassName('prod-floors-trigger');
+    let smallBtns = document.getElementsByClassName('floor-trigger');
+
+    for (let i = 0; i < bigBtns.length; i++) {
+        bigBtns[i].addEventListener('click', function () {
+            let selected = this.getAttribute('data-select');
+            firstMenu.style.opacity = 0;
+            mainFloorsMenu.style.opacity = 0;
+            let selectedTitle = selected.charAt(0).toUpperCase() + selected.slice(1);
+            mainTitle.innerHTML = selectedTitle;
+            let selectFloorButtons = document.getElementsByClassName('floor-trigger');
+            for (let i = 0; i < selectFloorButtons.length; i++) {
+                let buttonData = selectFloorButtons[i].getAttribute('data-trigger-name');
+
+                if (selected == buttonData) {
+                    let triggersTab = selectFloorButtons[i].getAttribute('data-triggers');
+                    document.getElementById(triggersTab).classList.add('tab-active');
+                    selectFloorButtons[i].classList.add('floor-trigger-active');
+                    break;
+                }
+            }
+            setTimeout(() => {
+                mainFloorsMenu.classList.remove('d-none');
+                sliderRun();
+                mainFloorsMenu.style.opacity = 1;
+                firstMenu.classList.add('d-none');
+            }, 300);
+        })
+    };
+    for (let i = 0; i < smallBtns.length; i++) {
+        smallBtns[i].addEventListener('click', function () {
+            mainFloorsMenu.getElementsByClassName('tab-active')[0].classList.remove('tab-active');
+            mainFloorsMenu.getElementsByClassName('floor-trigger-active')[0].classList.remove('floor-trigger-active');
+            let thisTriggers = this.getAttribute('data-triggers');
+            let dataName = this.getAttribute('data-trigger-name');
+            let newTitle = dataName.charAt(0).toUpperCase() + dataName.slice(1);
+            mainTitle.innerHTML = newTitle;
+            setTimeout(() => {
+                document.getElementById(thisTriggers).classList.add('tab-active');
+                this.classList.add('floor-trigger-active');
+            }, 300);
+        })
+    }
+}
+let mainMenuBtn = document.getElementById('main-menu-trigger');
+let mainMenu = document.getElementById('mainMenu');
+mainMenuBtn.addEventListener('click', function () {
+    if (!this.classList.contains('menu-trigger-active')) {
+        this.classList.add('menu-trigger-active');
+        header.classList.add('mobile-menu-shown');
+        mainMenu.classList.add('mainMenu-open');
+    } else {
+        this.classList.remove('menu-trigger-active');
+        header.classList.remove('mobile-menu-shown');
+        mainMenu.classList.remove('mainMenu-open');
+    }
+})

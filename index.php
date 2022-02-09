@@ -10,8 +10,8 @@ include('inc/body-before.php');
     <div class="hero-content">
         <div class="wrapper">
             <div class="hero-title text-white text-center" data-aos="zoom-in" data-duration="600">
-                <h2 class="h2 font-weight-light mb-2" data-aos="fade-right" data-aos-delay="700">Tražite podlogu za zivot?</h2>
-                <p class="display-4 font-weight-light mb-4" data-aos="fade-left" data-aos-delay="1400">Zavirite u svijet 3D parketa!</p>
+                <h2 class="hero-heading-sec font-weight-light mb-2" data-aos="fade-right" data-aos-delay="700">Tražite podlogu za zivot?</h2>
+                <p class="hero-heading-main font-weight-light mb-4" data-aos="fade-left" data-aos-delay="1400">Zavirite u svijet 3D parketa!</p>
                 <span data-aos="fade-up" data-aos-delay="2100">
                     <a class="cta-btn cta-btn-primary" href="products.php">Pogledajte naše podove</a>
                 </span>
@@ -22,9 +22,9 @@ include('inc/body-before.php');
 
 <section class="home-about-us">
     <div class="wrapper text-center">
-        <h1 class="display-4 mb-3">Ko smo mi?</h1>
-        <p class="h3 font-weight-light mb-5">JoWood kompanija je osnovana 2021. godine u Banjoj Luci. Naša osnovna ideja je da tržištu predstavimo inovacije u svijetu podova. Razvili smo prvi 3D parket od 100% prirodnih materijala. Naša misija  je društvena odgovrnost i zansiva se na korišćenju inovativnih metoda obrade drveta, koje omogućavaju stopostotnu iskorišćenost drveta i time se zalažemo za očuvanje prirode.</p>
-        <p class="font-weight-bold h3 mb-5">Uz naše parkete ćete doživjeti 3D prirodu u svom domu!</p>
+        <h1 class="home-about-title mb-3">Ko smo mi?</h1>
+        <p class="home-about-text font-weight-light mb-5">JoWood kompanija je osnovana 2021. godine u Banjoj Luci. Naša osnovna ideja je da tržištu predstavimo inovacije u svijetu podova. Razvili smo prvi 3D parket od 100% prirodnih materijala. Naša misija  je društvena odgovrnost i zansiva se na korišćenju inovativnih metoda obrade drveta, koje omogućavaju stopostotnu iskorišćenost drveta i time se zalažemo za očuvanje prirode.</p>
+        <p class="font-weight-bold home-about-text mb-5">Uz naše parkete ćete doživjeti 3D prirodu u svom domu!</p>
         <span><a class="cta-btn cta-btn-secondary" href="about.php">Pročitajte više...</a></span>
     </div>
 </section>

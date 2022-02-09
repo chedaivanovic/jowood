@@ -52,6 +52,9 @@
           }
       }
     }
+    @include under-sm{
+      padding: 30px 15px;
+    }
   }
 }
 #mainMap {

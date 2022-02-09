@@ -11,8 +11,17 @@ header {
       color: $white;
       font-size: 14px;
       margin: 0;
+      line-height: 32px;
     }
-    line-height: 30px;
+    @include under-md {
+      border-bottom: 1px solid $primary;
+    }
+    @include under-sm {
+      text-align: center;
+      .social-networks {
+        justify-content: center;
+      }
+    }
   }
   #mainHeader {
     line-height: 80px;
@@ -21,9 +30,9 @@ header {
         height: 70px;
         width: auto;
       }
-      &:hover{
+      &:hover {
         transform: scale(1.1);
-        opacity: .8;
+        opacity: 0.8;
       }
       &.home-logo {
         img {
@@ -53,6 +62,55 @@ header {
         }
       }
     }
+    #main-menu-trigger {
+      display: none;
+      width: 40px;
+      height: 32px;
+      position: absolute;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      padding: 0;
+      .menu-dash {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 6px;
+        border-radius: 2px;
+        background-color: $white;
+        transition: 0.3s all ease;
+        &:nth-of-type(1) {
+          top: 0;
+        }
+        &:nth-of-type(2) {
+          top: 50%;
+          transform: translateY(-50%);
+        }
+        &:nth-of-type(3) {
+          bottom: 0;
+        }
+      }
+      &.menu-trigger-active {
+        .menu-dash {
+          &:nth-of-type(1) {
+            top: 50%;
+            transform: translateY(-50%) rotate(45deg);
+          }
+          &:nth-of-type(2) {
+            opacity: 0;
+          }
+          &:nth-of-type(3) {
+            bottom: 50%;
+            transform: translateY(50%) rotate(-45deg);
+          }
+        }
+      }
+      @include under-md {
+        display: block;
+      }
+    }
     &.sticky {
       position: fixed;
       top: 0;
@@ -63,7 +121,50 @@ header {
         img {
           height: 70px;
           width: auto;
+          @include under-sm {
+            height: 50px;
+          }
         }
+      }
+    }
+
+    @include under-md {
+      line-height: 60px;
+      position: relative;
+      .logo-holder {
+        img {
+          height: 50px;
+        }
+      }
+      #mainMenu {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        left: 0;
+        background-color: $black;
+        text-align: center;
+        padding: 0;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        box-shadow: 0 7px 5px rgba($white, 0.2);
+        a:hover {
+          &::before {
+            left: 40%;
+            width: 20%;
+          }
+        }
+        &.mainMenu-open {
+          padding: 30px 0;
+          opacity: 1;
+          height: auto;
+          overflow: initial;
+          visibility: visible;
+        }
+      }
+      &.mobile-menu-shown {
+        background: $black;
       }
     }
   }

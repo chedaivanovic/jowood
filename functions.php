@@ -17,7 +17,7 @@ function createSvg($name) {
 }
 
 function createBreadcrumb($title, $bg){
-    echo $breadcrumb = '<div class="breadcrumbs" style="background-image: url(\'assets/img/breadcrumbs/' . $bg . '.jpg\')">
-                            <h1 class="breadcrumb-title">' . $title . '</h1>
+    echo '<div class="breadcrumbs" style="background-image: url(\'assets/img/breadcrumbs/' . $bg . '.jpg\')">
+                            <h1 id="breadcrumb-title">' . $title . '</h1>
                         </div>';
 }

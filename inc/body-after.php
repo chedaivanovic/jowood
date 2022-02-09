@@ -29,18 +29,18 @@
                         <h3>Linkovi</h3>
                     </div>
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Početna Strana</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Proizvodi</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">O JoWood-u</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Kontakt</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Partnerstvo</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Zaposlenje</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Cube | 3D Pod</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Flower | 3D Pod</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Hexagon | 3D Pod</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Line | 3D Pod</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Star | 3D Pod</a></div>
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6"><a href="">Triangle | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Početna Strana</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Proizvodi</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">O JoWood-u</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Kontakt</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Partnerstvo</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Zaposlenje</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Cube | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Flower | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Hexagon | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Line | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Star | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="">Triangle | 3D Pod</a></div>
                     </div>
                 </div>
                 <div class="footer-info">

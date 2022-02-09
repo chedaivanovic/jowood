@@ -1,0 +1,141 @@
+#products-page {
+  #prod-floors-tab {
+    background: linear-gradient(to bottom right, $black-h, $black);
+    padding: 100px 0 100px;
+    .prod-floors-trigger {
+      h4 {
+        font-family: $headingFont;
+      }
+      &:hover {
+        img {
+          transform: scale(1.05);
+          filter: drop-shadow(10px 10px 10px #111);
+        }
+      }
+    }
+  }
+  #floor-selection {
+    background-color: $black;
+    border-bottom: 5px solid $primary;
+    #floor-triggers {
+      .floor-trigger-item {
+        text-align: center;
+        .floor-trigger {
+          width: 100%;
+          max-width: 150px;
+          background-color: $primary;
+          color: $white;
+          height: 50px;
+          border: none;
+          border-radius: 10px;
+          &:hover {
+            background-color: $primary-h;
+          }
+          &-active {
+            background-color: $primary-dark;
+            pointer-events: none;
+          }
+        }
+      }
+    }
+  }
+  #info-selection {
+    background-color: $primary;
+    border-bottom: 5px solid $primary;
+    .info-trigger {
+      width: 100%;
+      border: none;
+      background-color: $black;
+      line-height: 50px;
+      color: $white;
+      border-right: 1px solid $primary;
+      &:hover {
+        background-color: $black-h;
+      }
+      &-active {
+        background-color: $black-h;
+        pointer-events: none;
+      }
+    }
+  }
+  #floor-tabs {
+    .floors-tab {
+      height: 0;
+      opacity: 0;
+      overflow: hidden;
+      visibility: hidden;
+      transition: 0.3s all ease;
+      padding-top: 0;
+      padding-bottom: 0;
+      .gallery-holder {
+        width: 100%;
+        column-count: 4;
+        column-gap: 30px;
+        > a {
+          display: inline-block;
+          margin-bottom: 30px;
+          position: relative;
+          img {
+            width: 100%;
+          }
+          &::before {
+            content: "";
+            position: absolute;
+            z-index: 1;
+            background: $primary;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+          }
+          &::after {
+            content: "\f06e";
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            z-index: 2;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 92px;
+            opacity: 0;
+            color: $white;
+            @include under-lg {
+              font-size: 64px;
+            }
+          }
+          &:hover {
+            &::before {
+              opacity: 0.6;
+            }
+            &::after {
+              opacity: 1;
+            }
+          }
+        }
+        @include under-xl{
+          column-count: 3;
+        }
+        @include under-md{
+          column-count: 2;
+        }
+        @include under-sm{
+          column-gap: 10px;
+        }
+      }
+      &.floors-inactive {
+        height: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      &.tab-active {
+        height: auto;
+        opacity: 1;
+        overflow: initial;
+        visibility: visible;
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+    }
+  }
+}

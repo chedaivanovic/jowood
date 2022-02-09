@@ -7,7 +7,7 @@ createBreadcrumb($pageTitle, $pageClass);
 <section id="mainContact">
     <div class="wrapper">
         <div class="row">
-            <div class="col-12 col-md-6 px-4 d-flex">
+            <div class="col-12 col-md-6 px-4 mb-4 mb-md-0 d-flex">
                 <div class="contact-page-card contact-page-info-card">
                     <p class="contact-heading">Kontakt Informacije</p>
                     <h2>JoWood D.O.O.</h2>

@@ -5,7 +5,7 @@ include('inc/body-before.php');
 createBreadcrumb($pageTitle, $pageClass);
 ?>
 
-<section id="<?php echo $pageClass; ?>-page">
+<div id="<?php echo $pageClass; ?>-page">
     <section class="text-section text-center text-white section-padding">
         <div class="wrapper">
             <p class="h4 font-weight-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci rerum itaque perspiciatis facere quibusdam. Reiciendis mollitia magni iusto modi rerum? Veritatis, modi expedita fuga eos nisi quae quam temporibus vel nemo illo est iusto quo culpa nobis necessitatibus repellat officia, odio, tempora commodi? Saepe, error temporibus? Beatae esse tempora voluptatum voluptatibus molestias cumque quidem asperiores consectetur? Quae mollitia consequuntur asperiores:</p>
@@ -55,7 +55,7 @@ createBreadcrumb($pageTitle, $pageClass);
             </div>
         </div>
     </section>
-</section>
+</div>
 
 <?php
 include('inc/body-after.php');

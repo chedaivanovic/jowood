@@ -6,13 +6,13 @@ createBreadcrumb($pageTitle, $pageClass);
 $searchFor = array('Radnik u proizvodnji', 'Parketar');
 ?>
 
-<section id="<?php echo $pageClass; ?>-page">
-    <div class="text-section text-center text-white section-padding">
+<div id="<?php echo $pageClass; ?>-page">
+    <section class="text-section text-center text-white section-padding">
         <div class="wrapper">
             <p class="h4 font-weight-light">U koliko ste u potrazi za poslom, a imate iskustva... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorem harum hic nostrum eveniet ad dolorum excepturi? Fuga consequatur similique nisi commodi vitae adipisci aut mollitia inventore blanditiis, esse at odit magnam, iusto numquam totam beatae quam sequi, culpa facere officia nesciunt. Tempora, perspiciatis laboriosam mollitia quibusdam nostrum odit. Vero minus corporis dolorum? Cum cumque cupiditate aspernatur optio praesentium ut tempora libero explicabo. Perferendis quidem consequuntur dicta aspernatur unde exercitationem!</p>
         </div>
-    </div>
-    <div id="current-positions" class="section-padding">
+    </section>
+    <section id="current-positions" class="section-padding">
         <div class="wrapper">
             <?php if (count($searchFor) > 0) : ?>
                 <h3 class="text-center mb-4">Trenutno otvorene pozicije</h3>
@@ -31,9 +31,9 @@ $searchFor = array('Radnik u proizvodnji', 'Parketar');
                 <h5>Trenutno nismo u potrazi za radnom snagom, ali to nije razlog da nam ne pošaljete Vaš CV ili napišete nešto o sebi, da vas možemo kontaktirati kada budemo imali otvorene pozicije.</h5>
             <?php endif; ?>
         </div>
-    </div>
+    </section>
 
-    <div class="job-form-section section-padding">
+    <section class="job-form-section section-padding">
         <div class="wrapper">
             <div class="row">
                 <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
@@ -109,8 +109,8 @@ $searchFor = array('Radnik u proizvodnji', 'Parketar');
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 
 
 <?php

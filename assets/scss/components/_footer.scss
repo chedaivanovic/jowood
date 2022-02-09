@@ -7,6 +7,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
+    @include under-md {
+      flex-wrap: wrap;
+    }
     .footer-main {
       text-align: center;
       flex: 0 30%;
@@ -40,6 +43,11 @@ footer {
             }
           }
         }
+      }
+      @include under-md {
+        flex: 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
       }
     }
     .footer-links {
@@ -80,6 +88,15 @@ footer {
             }
           }
         }
+      }
+      @include under-md {
+        flex: 0 45%;
+        max-width: 45%;
+      }
+      @include under-sm{
+        flex: 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
       }
     }
     .footer-info {
@@ -131,6 +148,14 @@ footer {
           }
         }
       }
+      @include under-md {
+        flex: 0 45%;
+        max-width: 45%;
+      }
+      @include under-sm{
+        flex: 0 100%;
+        max-width: 100%;
+      }
     }
   }
   .footer-copyright {
@@ -144,6 +169,10 @@ footer {
     a {
       display: inline-block;
       color: $primary;
+    }
+    @include under-sm{
+      line-height: 26px;
+      padding: 10px 0;
     }
   }
 }

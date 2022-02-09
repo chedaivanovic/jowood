@@ -16,3 +16,11 @@
     }
   }
 }
+.grecaptcha-badge{
+  @media screen and (max-width: 1440px) {
+    opacity: .3;
+  }
+  @include under-md{
+    opacity: .2;
+  }
+}

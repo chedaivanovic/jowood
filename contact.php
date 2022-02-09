@@ -33,7 +33,7 @@ require_once('forms/keys.php');
             <div class="col-12 col-md-6 px-4 d-flex">
                 <div class="contact-page-card contact-page-form-card">
                     <p class="contact-heading">Pišite nam</p>
-                    <form method="post"  action="forms/contact.php" id="contact-form">
+                    <form method="post" action="forms/contact.php" id="contact-form">
                         <div class="row">
                             <div class="col-12 mb-3 col-md-6">
                                 <input name="name" class="input-style" id="contact-name" placeholder="Vaše Ime *" type="text" required>
@@ -54,41 +54,7 @@ require_once('forms/keys.php');
                             </div>
                         </div>
                     </form>
-                    <script>
-                        function onSubmit(token) {
-                            var formData = $("#contact-form").serialize();
-                            $(".has-error").removeClass("has-error");
-                            if ($("#contact-name").val() == "") {
-                                $("#message").html("Unesite svoje ime.");
-                                return false;
-                            }
-                            if ($("#contact-mail").val() == "") {
-                                $("#message").html("Unesite svoju email adresu.");
-                                return false;
-                            }
-                            if ($("#contact-subject").val() == "") {
-                                $("#message").html("Unesite naslov poruke.");
-                                return false;
-                            }
-                            if ($("#contact-text").val() == "") {
-                                $("#message").html("Unesite poruku.");
-                                return false;
-                            }
-                            $.ajax({
-                                url: "forms/contact.php",
-                                type: "POST",
-                                data: formData,
-                                success: function(data) {
-                                    $("#contact-form")[0].reset();
-                                    console.log(data);
-                                    $("#message").html(data);
-                                },
-                                error: function() {
-                                    alert("error handling here");
-                                }
-                            });
-                        };
-                    </script>
+
                 </div>
             </div>
         </div>
@@ -100,6 +66,42 @@ require_once('forms/keys.php');
 </section>
 
 <script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+    function onSubmit(token) {
+        var formData = $("#contact-form").serialize();
+        console.log(formData);
+        $(".has-error").removeClass("has-error");
+        if ($("#contact-name").val() == "") {
+            $("#message").html('<div class="bg-danger text-white lead mb-3 py-2 px-4 rounded">Unesite svoje ime.</div>');
+            return false;
+        }
+        if ($("#contact-mail").val() == "") {
+            $("#message").html('<div class="bg-danger text-white lead mb-3 py-2 px-4 rounded">Unesite svoju email adresu.</div>');
+            return false;
+        }
+        if ($("#contact-subject").val() == "") {
+            $("#message").html('<div class="bg-danger text-white lead mb-3 py-2 px-4 rounded">Unesite naslov poruke.</div>');
+            return false;
+        }
+        if ($("#contact-text").val() == "") {
+            $("#message").html('<div class="bg-danger text-white lead mb-3 py-2 px-4 rounded">Unesite poruku.</div>');
+            return false;
+        }
+        $.ajax({
+            url: "forms/contact.php",
+            type: "POST",
+            data: formData,
+            success: function(data) {
+                $("#contact-form")[0].reset();
+                console.log(data);
+                $("#message").html(data);
+            },
+            error: function() {
+                alert("error handling here");
+            }
+        });
+    };
+</script>
 <?php
 include('inc/body-after.php');
 ?>

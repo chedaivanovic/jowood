@@ -93,7 +93,6 @@ require_once('forms/keys.php');
             data: formData,
             success: function(data) {
                 $("#contact-form")[0].reset();
-                console.log(data);
                 $("#message").html(data);
             },
             error: function() {

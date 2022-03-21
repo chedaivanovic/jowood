@@ -36,10 +36,10 @@
                         <div class="col-6 col-md-12 col-lg-6"><a href="partners.php">Partnerstvo</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="job.php">Zaposlenje</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="products.php#cube">Cube | 3D Pod</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#flower">Flower | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#honeycomb">Honeycomb | 3D Pod</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="products.php#hexagon">Hexagon | 3D Pod</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="products.php#line">Line | 3D Pod</a></div>
-                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#star">Star | 3D Pod</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="products.php#flower">Flower | 3D Pod</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="products.php#triangle">Triangle | 3D Pod</a></div>
                     </div>
                 </div>

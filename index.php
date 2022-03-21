@@ -11,7 +11,7 @@ include('inc/body-before.php');
         <div class="wrapper">
             <div class="hero-title text-white text-center" data-aos="zoom-in" data-duration="600">
                 <h2 class="hero-heading-sec font-weight-light mb-2" data-aos="fade-right" data-aos-delay="700">Tražite podlogu za zivot?</h2>
-                <p class="hero-heading-main font-weight-light mb-4" data-aos="fade-left" data-aos-delay="1400">Zavirite u svijet 3D parketa!</p>
+                <p class="hero-heading-main font-weight-light mb-4" data-aos="fade-left" data-aos-delay="1400">Dobrodošli u svijet 3D parketa!</p>
                 <span data-aos="fade-up" data-aos-delay="2100">
                     <a class="cta-btn cta-btn-primary" href="products.php">Pogledajte naše podove</a>
                 </span>
@@ -22,9 +22,12 @@ include('inc/body-before.php');
 
 <section class="home-about-us">
     <div class="wrapper text-center">
-        <h1 class="home-about-title mb-3">Ko smo mi?</h1>
-        <p class="home-about-text font-weight-light mb-5">JoWood kompanija je osnovana 2021. godine u Banjoj Luci. Naša osnovna ideja je da tržištu predstavimo inovacije u svijetu podova. Razvili smo prvi 3D parket od 100% prirodnih materijala. Naša misija  je društvena odgovrnost i zansiva se na korišćenju inovativnih metoda obrade drveta, koje omogućavaju stopostotnu iskorišćenost drveta i time se zalažemo za očuvanje prirode.</p>
-        <p class="font-weight-bold home-about-text mb-5">Uz naše parkete ćete doživjeti 3D prirodu u svom domu!</p>
+        <h1 class="home-about-title mb-4">Upoznajte "Royal Oak" parkete iz kompanije "JoWood"</h1>
+        <p class="home-about-text font-weight-light">Originalni i inovativni "JoWood" parketi vrhunskog kvaliteta proizvodnje omogućavaju svakom kupcu da za svoj dom, ugostiteljski objekat ili neki drugi prostor, odabere moderan parket, slušajući svoje želje i u skladu sa ukusom biraju boje.
+        <p class="home-about-text">Naš parket je napravljen od 100 posto hrasta tehnikom lameliranja furnira koji obezbjeđuje dugotrajnost i veliku otpornost. Proizvodimo ga pomoću mašina koje smo sami dizajnirali.</p>
+        <p class="home-about-text">Svaka podnica "JoWood" parketa prolazi kroz naše ruke mnogo puta, a na ugradnju ide tek kada se uvjerimo da je ispunila stroge kriterijume proizvodnje.</p>
+        <p class="home-about-text">Insistiramo na tome da se svakoj podnici posveti puna pažnja i da osim po inovativnim rješenjima za vaše podove, ponudimo i besprekoran kvalitet.</p>
+        <p class="home-about-text mb-5">Baš zato i jesmo bolji od svih ostalih. Zato što nikada nismo isti, niti skuplji, samo smo bolji.</p>
         <span><a class="cta-btn cta-btn-secondary" href="about.php">Pročitajte više...</a></span>
     </div>
 </section>
@@ -33,10 +36,10 @@ include('inc/body-before.php');
     <div class="wrapper">
         <div class="floor-images d-none">
             <img src="assets/img/home-floors-bg/cube.jpg" alt="JoWood 3D Podovi | cube">
-            <img src="assets/img/home-floors-bg/flower.jpg" alt="JoWood 3D Podovi | flower">
+            <img src="assets/img/home-floors-bg/honeycomb.jpg" alt="JoWood 3D Podovi | honeycomb">
             <img src="assets/img/home-floors-bg/hexagon.jpg" alt="JoWood 3D Podovi | hexagon">
             <img src="assets/img/home-floors-bg/line.jpg" alt="JoWood 3D Podovi | line">
-            <img src="assets/img/home-floors-bg/star.jpg" alt="JoWood 3D Podovi | star">
+            <img src="assets/img/home-floors-bg/flower.jpg" alt="JoWood 3D Podovi | flower">
             <img src="assets/img/home-floors-bg/triangle.jpg" alt="JoWood 3D Podovi | triangle">
         </div>
         <div id="p-main-box">
@@ -57,9 +60,9 @@ include('inc/body-before.php');
                             <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/cube.svg" alt="JoWood 3D podovi | Cube">
                             <h4 class="text-white">Cube</h4>
                         </button>
-                        <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-floors-trigger" data-target="#flower-tab" data-bg="flower">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/flower.svg" alt="JoWood 3D podovi | Flower">
-                            <h4 class="text-white">Flower</h4>
+                        <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-floors-trigger" data-target="#honeycomb-tab" data-bg="honeycomb">
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/honeycomb.svg" alt="JoWood 3D podovi | Honeycomb">
+                            <h4 class="text-white">Honeycomb</h4>
                         </button>
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-floors-trigger" data-target="#hexagon-tab" data-bg="hexagon">
                             <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/hexagon.svg" alt="JoWood 3D podovi | Hexagon">
@@ -70,9 +73,9 @@ include('inc/body-before.php');
                             <h4 class="text-white">Line</h4>
                         </button>
 
-                        <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-floors-trigger" data-target="#star-tab" data-bg="star">
-                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/star.svg" alt="JoWood 3D podovi | Star">
-                            <h4 class="text-white">Star</h4>
+                        <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-floors-trigger" data-target="#flower-tab" data-bg="flower">
+                            <img loading="lazy" class="w-50 mb-4" src="assets/img/icons/flower.svg" alt="JoWood 3D podovi | Flower">
+                            <h4 class="text-white">Flower</h4>
                         </button>
 
                         <button class="col-12 col-sm-6 col-md-4 btn mb-3 big-floors-trigger" data-target="#triangle-tab" data-bg="triangle">
@@ -84,41 +87,41 @@ include('inc/body-before.php');
                 <div id="single-floor-section" class="row">
                     <div id="floor-sidebar" class="col-12 col-md-3">
                         <button class="small-floors-trigger" data-target="#cube-tab" data-bg="cube"><span>Cube</span> <?php createSvg('cube'); ?> </button>
-                        <button class="small-floors-trigger" data-target="#flower-tab" data-bg="flower"><span>Flower</span> <?php createSvg('flower'); ?> </button>
+                        <button class="small-floors-trigger" data-target="#honeycomb-tab" data-bg="honeycomb"><span>Honeycomb</span> <?php createSvg('honeycomb'); ?> </button>
                         <button class="small-floors-trigger" data-target="#hexagon-tab" data-bg="hexagon"><span>Hexagon</span> <?php createSvg('hexagon'); ?> </button>
                         <button class="small-floors-trigger" data-target="#line-tab" data-bg="line"><span>Line</span> <?php createSvg('line'); ?> </button>
-                        <button class="small-floors-trigger" data-target="#star-tab" data-bg="star"><span>Star</span> <?php createSvg('star'); ?> </button>
+                        <button class="small-floors-trigger" data-target="#flower-tab" data-bg="flower"><span>Flower</span> <?php createSvg('flower'); ?> </button>
                         <button class="small-floors-trigger" data-target="#triangle-tab" data-bg="triangle"><span>Triangle</span> <?php createSvg('triangle'); ?> </button>
                     </div>
                     <div id="dynamic-floors" class="col-12 col-md-9">
                         <div id="cube-tab" class="single-floor-tab">
                             <h2>Cube</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <p>Cube slaganje "JoWood" parketa kombinuje tri boje na velikim podnicama kako bi se dobio 3D efekat složenih kocki. Na ovaj način se postiže otvaranje prostora uz dodavanje dekorativnih elemenata koji obogaćuju ambijent. Cube slaganje je idealno za veće prostorije, restorane, poslovne prostore, kancelarije, svim onim prostorima koje želite obogatiti stilom i dobrim ukusom. Savršeno se slaže sa savremenim minimalizmom u vašem dnevnom boravku...</p>
                             <a href="products.php#cube" class="view-more-floors">Pogledajte više o Cube-u</a>
                         </div>
-                        <div id="flower-tab" class="single-floor-tab">
-                            <h2>Flower</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
-                            <a href="products.php#flower" class="view-more-floors">Pogledajte više o Flower-u</a>
+                        <div id="honeycomb-tab" class="single-floor-tab">
+                            <h2>Honeycomb</h2>
+                            <p>Honeycomb slaganje "JoWood" parketa zahtijeva kompleksnije kombinacije pomoću obje veličine podnica. Ovo je kombinacija velike i male podnice, sa efektom preplitanja i uklapanjem šestouglova. Tako dobijamo vidljiv cvjetni aranžman na podu. U zavisnosti od odabranih boja i u skladu sa željama kupaca, cvjetove možemo slagati tako da im unutrašnjost bude svjetlija ili tamnija, a jednako lijep efekat postižemo i sa jednobojnim podnicama...</p>
+                            <a href="products.php#honeycomb" class="view-more-floors">Pogledajte više o Honeycomb-u</a>
                         </div>
                         <div id="hexagon-tab" class="single-floor-tab">
                             <h2>Hexagon</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <p>Hexagon slaganje "JoWood" parketa u svojoj osnovi ima samo manje podnice koje se slažu u šestougao. One se dalje nadovezuju i uklapaju preko cijele prostorije. Na ovaj način slaganja parketa otvaramo široku paletu kombinacija. Koje god boje da odaberete, ovaj parket će u vaš prostor unijeti punoću i toplinu...</p>
                             <a href="products.php#hexagon" class="view-more-floors">Pogledajte više o Hexagon-u</a>
                         </div>
                         <div id="line-tab" class="single-floor-tab">
                             <h2>Line</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <p>Line slaganje "JoWood" parketa približavaju se klasičnom parketu uz dodatke naših inovativnih kosih linija, kombinacija boja i efekata koje želimo postići. Ovo slaganje parketa nudi niz originalnih kombinacija boja, od blijede boje drveta do crvenih i crnih tonova...</p>
                             <a href="products.php#line" class="view-more-floors">Pogledajte više o Line-u</a>
                         </div>
-                        <div id="star-tab" class="single-floor-tab">
-                            <h2>Star</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
-                            <a href="products.php#star" class="view-more-floors">Pogledajte više o Star-u</a>
+                        <div id="flower-tab" class="single-floor-tab">
+                            <h2>Flower</h2>
+                            <p>Flower slaganje "JoWood" parketa zahtijeva kompleksnije kombinacije pomoću obje veličine podnica. Ovo je kombinacija velike i male podnice, sa efektom preplitanja i uklapanjem šestouglova. Tako dobijamo vidljiv cvjetni aranžman na podu. U zavisnosti od odabranih boja i u skladu sa željama kupaca, cvjetove možemo slagati tako da im unutrašnjost bude svjetlija ili tamnija, a jednako lijep efekat postižemo i sa jednobojnim podnicama...</p>
+                            <a href="products.php#flower" class="view-more-floors">Pogledajte više o Flower-u</a>
                         </div>
                         <div id="triangle-tab" class="single-floor-tab">
                             <h2>Triangle</h2>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quam perferendis blanditiis voluptatibus. Eveniet inventore atque sit id ad expedita aspernatur? Modi facere doloribus architecto in id. Delectus quo voluptatibus, tempora consequatur vitae modi eveniet iure suscipit ex exercitationem similique, doloribus laboriosam rem distinctio maiores, ratione natus ab magni eum reiciendis dolor dolores! Pariatur maxime temporibus consequuntur dolorum corrupti, aliquam, eligendi unde non voluptatem aperiam architecto, modi iusto soluta quo. Mollitia inventore doloremque animi sint illum, maiores perferendis esse, tenetur commodi excepturi, voluptate ratione voluptatibus minima suscipit reiciendis? Sunt optio architecto earum dicta culpa sequi ratione libero velit magni exercitationem.</p>
+                            <p>Triangle "JoWood" slaganje parketa u svojoj osnovi koristi samo male podnice, koje se uklapaju tako da dobijemo jednakostranične trouglove. Kao i u prethodnim slučajevima slaganja našeg parketa, i ovdje nam se otvaraju brojne mogućnosti za kreativnost na podu. Sve one, opet, zavise od boja i želja kupaca da se sa njima poigraju i u svoj prosto unesu nešto novo...</p>
                             <a href="products.php#triangle" class="view-more-floors">Pogledajte više o Triangle-u</a>
                         </div>
                     </div>
@@ -138,7 +141,7 @@ include('inc/body-before.php');
                         <img src="assets/img/partners.jpg" alt="JoWood 3D Podovi | Partneri">
                     </span>
                     <div class="home-partners-text text-center">
-                        <h4>Želite da sarađujemo?</h4>
+                        <h4>Zainteresovani ste za saradnju?</h4>
                         <p>Za partnerske kompanije nudimo velike pogodnosti i benefite. U koliko imate predlog za saradnju, možete nam pisati na stranici na koju vas vodi link ispod.</p>
                         <a href="partners.php" class="partners-link">Partneri</a>
                     </div>

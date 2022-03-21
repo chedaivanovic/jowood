@@ -3,13 +3,13 @@ $pageTitle = 'Zaposlenje';
 $pageClass = 'job';
 include('inc/body-before.php');
 createBreadcrumb($pageTitle, $pageClass);
-$searchFor = array('Radnik u proizvodnji', 'Parketar');
+$searchFor = array(/*'Radnik u proizvodnji', 'Parketar'*/);
 ?>
 
 <div id="<?php echo $pageClass; ?>-page">
     <section class="text-section text-center text-white section-padding">
         <div class="wrapper">
-            <p class="h4 font-weight-light">U koliko ste u potrazi za poslom, a imate iskustva... Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem dolorem harum hic nostrum eveniet ad dolorum excepturi? Fuga consequatur similique nisi commodi vitae adipisci aut mollitia inventore blanditiis, esse at odit magnam, iusto numquam totam beatae quam sequi, culpa facere officia nesciunt. Tempora, perspiciatis laboriosam mollitia quibusdam nostrum odit. Vero minus corporis dolorum? Cum cumque cupiditate aspernatur optio praesentium ut tempora libero explicabo. Perferendis quidem consequuntur dicta aspernatur unde exercitationem!</p>
+            <p class="h4 font-weight-light max-w-md">Iskusni ste u obradi drveta i želite posao u našoj kompaniji? Javite nam se, napišite nam par riječi o sebi ili pošaljite CV.</p>
         </div>
     </section>
     <section id="current-positions" class="section-padding">

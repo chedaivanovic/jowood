@@ -23,11 +23,11 @@ include('inc/body-before.php');
 <section class="home-about-us">
     <div class="wrapper text-center">
         <h1 class="home-about-title mb-4">Upoznajte "Royal Oak" parkete iz kompanije "JoWood"</h1>
-        <p class="home-about-text font-weight-light">Originalni i inovativni "JoWood" parketi vrhunskog kvaliteta proizvodnje omogućavaju svakom kupcu da za svoj dom, ugostiteljski objekat ili neki drugi prostor, odabere moderan parket, slušajući svoje želje i u skladu sa ukusom biraju boje.
-        <p class="home-about-text">Naš parket je napravljen od 100 posto hrasta tehnikom lameliranja furnira koji obezbjeđuje dugotrajnost i veliku otpornost. Proizvodimo ga pomoću mašina koje smo sami dizajnirali.</p>
-        <p class="home-about-text">Svaka podnica "JoWood" parketa prolazi kroz naše ruke mnogo puta, a na ugradnju ide tek kada se uvjerimo da je ispunila stroge kriterijume proizvodnje.</p>
+        <p class="home-about-text">Naši originalni i inovativni "JoWood" parketi iz linije "Royal Oak" napravljeni su tehnikom lameliranja od čiste hrastovine u tri sloja, što garantuje proizvod vrhunskog kvaliteta, jedinstven kako na našem, tako i na inostranom tržištu.</p>
+        <p class="home-about-text">Idealan za sve vrste podova i vrhunski otporan na sve spoljašnje uticaje, parket "Royal Oak" savršen je izbor za svakoga ko želi kvalitetne i moderne podove za svoj dom, ugostiteljski objekat ili neki drugi prostor.</p>
         <p class="home-about-text">Insistiramo na tome da se svakoj podnici posveti puna pažnja i da osim po inovativnim rješenjima za vaše podove, ponudimo i besprekoran kvalitet.</p>
-        <p class="home-about-text mb-5">Baš zato i jesmo bolji od svih ostalih. Zato što nikada nismo isti, niti skuplji, samo smo bolji.</p>
+        <p class="home-about-text">Baš zato i jesmo bolji od svih ostalih. Zato što nikada nismo isti, niti skuplji, samo smo bolji.</p>
+        <p class="home-about-text mb-5">Pogledate našu ponudu i uvjerite se.</p>
         <span><a class="cta-btn cta-btn-secondary" href="about.php">Pročitajte više...</a></span>
     </div>
 </section>

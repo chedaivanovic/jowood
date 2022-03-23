@@ -225,3 +225,20 @@ mainMenuBtn.addEventListener('click', function () {
         mainMenu.classList.remove('mainMenu-open');
     }
 });
+const qnaTriggers = document.getElementsByClassName('qna-trigger');
+if (qnaTriggers.length > 0) {
+    for (let i = 0; i < qnaTriggers.length; i++) {
+        qnaTriggers[i].addEventListener('click', function () {
+            let qnaP = qnaTriggers[i].nextElementSibling;
+            if (qnaP.classList.contains('shown-qna')) {
+                qnaP.classList.remove('shown-qna');
+            } else {
+                let currentQna = document.getElementsByClassName('shown-qna')[0];
+                if (currentQna) {
+                    currentQna.classList.remove('shown-qna');
+                }
+                qnaP.classList.add('shown-qna');
+            }
+        });
+    }
+}

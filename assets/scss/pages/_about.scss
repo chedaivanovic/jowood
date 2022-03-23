@@ -4,6 +4,37 @@
     min-height: 50vh;
     display: flex;
     align-items: center;
+    .about-us-qna{
+      position: relative;
+      padding-bottom: 10px;
+      h2{
+        cursor: pointer;
+      }
+      p{
+        visibility: hidden;
+        height: 0;
+        padding: 0;
+        opacity: 0;
+        overflow: hidden;
+        transition: .3s all ease-in-out;
+        &.shown-qna{
+          visibility: visible;
+          height: auto;
+          padding: 10px 0;
+          opacity: 1;
+          overflow: initial;
+        }
+      }
+      &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        background: linear-gradient(to right, rgba($white, 0), rgba($white, .5), rgba($white, 0));
+      }
+    }
   }
   .gallery-section {
     .gallery-holder {

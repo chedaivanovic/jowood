@@ -20,22 +20,22 @@ createBreadcrumb($pageTitle, $pageClass);
                             <h2 class="mb-4">Kontaktirajte nas</h2>
                         </div>
                         <div class="col-12 col-md-6 mb-3">
-                            <input required name="name" type="text" placeholder="Vaše ime" class="input-style">
+                            <input required name="name" type="text" placeholder="Vaše ime *" class="input-style">
                         </div>
                         <div class="col-12 col-md-6 mb-3">
-                            <input required name="email" type="text" placeholder="Vaš email" class="input-style">
+                            <input required name="email" type="text" placeholder="Vaš email *" class="input-style">
                         </div>
                         <div class="col-12 mb-3">
-                            <input required name="company" type="text" placeholder="Naziv kompanije" class="input-style">
+                            <input required name="company" type="text" placeholder="Naziv kompanije *" class="input-style">
                         </div>
                         <div class="col-12 col-md-6 mb-3">
-                            <input required name="adress" type="text" placeholder="Adresa kompanije" class="input-style">
+                            <input name="adress" type="text" placeholder="Adresa kompanije" class="input-style">
                         </div>
                         <div class="col-12 col-md-6 mb-3">
-                            <input required name="jib" type="text" placeholder="JIB kompanije" class="input-style">
+                            <input name="jib" type="text" placeholder="JIB kompanije" class="input-style">
                         </div>
                         <div class="col-12 mb-3">
-                            <textarea required name="message" id="" class="input-style" placeholder="Napišite više informacija o tipu partnerstva koje želite da ostvarimo ovde ili nam postavite pitanje"></textarea>
+                            <textarea required name="message" id="" class="input-style" placeholder="Napišite više informacija o tipu partnerstva koje želite da ostvarimo ovde ili nam postavite pitanje *"></textarea>
                         </div>
                         <div class="col-6 mb-3"></div>
                         <div class="col-6 mb-3">

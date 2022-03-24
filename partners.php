@@ -15,7 +15,7 @@ createBreadcrumb($pageTitle, $pageClass);
         <div class="wrapper">
             <div class="row">
                 <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
-                    <form action="partners.php" id="partenrs-form" class="row">
+                    <form action="forms/partners.php" id="partenrs-form" class="row">
                         <div class="col-12 text-center">
                             <h2 class="mb-4">Kontaktirajte nas</h2>
                         </div>

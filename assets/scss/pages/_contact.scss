@@ -1,0 +1,70 @@
+#mainContact {
+  min-height: 70vh;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  background: $black;
+  .contact-page-card {
+    width: 100%;
+    background: linear-gradient(to right bottom, $primary, $primary-h);
+    box-shadow: 0 0 20px rgba($black, 0.4);
+    border-radius: 20px;
+    padding: 40px 30px;
+    color: $white;
+    p.contact-heading {
+      width: 100%;
+      text-align: center;
+      display: block;
+      border-bottom: 1px solid rgba($white, 0.2);
+      font-size: 32px;
+      margin-bottom: 30px;
+      padding-bottom: 10px;
+      font-weight: 300;
+    }
+    &.contact-page-info-card {
+        span.icon-holder{
+            display: inline-block;
+            width: 30px;
+        }
+      h2 {
+        font-family: $headingFont;
+      }
+      h3{
+          font-size: 20px;
+          font-weight: 300;
+          padding-bottom: 20px;
+          margin-bottom: 0;
+      }
+      h3,
+      p:not(.contact-heading),
+      a {
+        border-bottom: 1px solid rgba($white, 0.2);
+      }
+      p:not(.contact-heading),
+      a {
+        line-height: 40px;
+        margin-bottom: 0;
+      }
+      a{
+          color: $white;
+          &:hover{
+              color: $primary-dark;
+          }
+      }
+    }
+    @include under-sm{
+      padding: 30px 15px;
+    }
+  }
+}
+#mainMap {
+  width: 100%;
+  height: 449px;
+  overflow: hidden;
+  border-top: 15px solid $primary;
+  #googleMapJoWood {
+    width: 100%;
+    height: 500px;
+    margin-top: -55px;
+  }
+}

@@ -13,7 +13,12 @@
     <script src="https://kit.fontawesome.com/9ebe8cbaa6.js" crossorigin="anonymous"></script>
 
     <!-- Css -->
+    <link rel="stylesheet" href="node_modules/lightbox2/src/css/lightbox.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
-    <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.0">
+    <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.3">
+    <!-- captcha -->
+    <?php
+    require('functions.php');
+    ?>
 </head>

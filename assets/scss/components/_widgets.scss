@@ -10,6 +10,17 @@
       &:hover{
           scale: 1.1;
       }
+      &.btn:hover{
+        color: $primary;
+      }
     }
+  }
+}
+.grecaptcha-badge{
+  @media screen and (max-width: 1440px) {
+    opacity: .3;
+  }
+  @include under-md{
+    opacity: .2;
   }
 }

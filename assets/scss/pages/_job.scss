@@ -1,186 +1,106 @@
-#services {
-    background:-webkit-gradient(linear, left top, right bottom, from(#ad2020), to(#310303));
-    background:linear-gradient(to bottom right, #ad2020, #310303);
-    padding:260px 0 100px;
-    margin-top:-220px
-   }
-   #services .services-header .all-services-trigger {
-    background-color:#dfdfdf;
-    font-size:20px;
-    font-weight:300;
-    border:none;
-    line-height:50px;
-    position:relative;
-    border-radius:15px;
-    overflow:hidden
-   }
-   #services .services-header .all-services-trigger span {
-    color:#ad2020;
-    font-weight:24px;
-    position:relative;
-    z-index:1;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -webkit-box-pack:center;
-    -ms-flex-pack:center;
-    justify-content:center
-   }
-   #services .services-header .all-services-trigger span svg {
-    height:17px;
-    margin-right:10px
-   }
-   #services .services-header .all-services-trigger span svg path {
-    fill:#ad2020
-   }
-   #services .services-header .all-services-trigger::before {
-    content:"";
-    position:absolute;
-    top:0;
-    bottom:0;
-    left:-15%;
-    right:100%;
-    background:#ad2020;
-    -webkit-transition:0.3s all ease-in-out;
-    transition:0.3s all ease-in-out;
-    -webkit-clip-path:polygon(0 0, 42% 0, 100% 100%, 0% 100%);
-    clip-path:polygon(0 0, 42% 0, 100% 100%, 0% 100%)
-   }
-   #services .services-header .all-services-trigger:hover {
-    color:#fff
-   }
-   #services .services-header .all-services-trigger:hover span {
-    color:#fff
-   }
-   #services .services-header .all-services-trigger:hover span svg path {
-    fill:#fff
-   }
-   #services .services-header .all-services-trigger:hover::before {
-    right:-15%;
-    -webkit-clip-path:polygon(0 0, 96% 0, 100% 100%, 0% 100%);
-    clip-path:polygon(0 0, 96% 0, 100% 100%, 0% 100%)
-   }
-   #services .services-header .all-services-trigger.services-trigger-active {
-    background:#310303;
-    color:#fff;
-    border-right:#310303;
-    pointer-events:none
-   }
-   #services .services-header .all-services-trigger.services-trigger-active span {
-    color:#fff
-   }
-   #services .services-header .all-services-trigger.services-trigger-active span svg {
-    font-size:0;
-    visibility:hidden;
-    height:0
-   }
-   #services #services-body #all-services-tab {
-    height:auto;
-    padding:50px 0;
-    opacity:1;
-    visibility:visible;
-    overflow:initial;
-    -webkit-transition:0.3s all ease-in-out;
-    transition:0.3s all ease-in-out
-   }
-   #services #services-body #all-services-tab .big-services-trigger:hover img {
-    -webkit-transform:scale(1.05);
-    transform:scale(1.05);
-    -webkit-filter:drop-shadow(10px 10px 10px #111);
-    filter:drop-shadow(10px 10px 10px #111)
-   }
-   #services #services-body #all-services-tab.all-services-hidden {
-    height:0;
-    padding:0;
-    opacity:0;
-    visibility:hidden;
-    overflow:hidden;
-    -webkit-transition:0.3s all ease-in-out;
-    transition:0.3s all ease-in-out
-   }
-   #services #services-body #single-service-section {
-    height:0;
-    padding:0;
-    opacity:0;
-    visibility:hidden;
-    overflow:hidden;
-    -webkit-transition:0.3s all ease-in-out;
-    transition:0.3s all ease-in-out
-   }
-   #services #services-body #single-service-section #service-sidebar .small-services-trigger {
-    border:none;
-    background:none;
-    outline:none !important;
-    line-height:60px;
-    color:#fff;
-    border-radius:5px;
-    width:100%
-   }
-   #services #services-body #single-service-section #service-sidebar .small-services-trigger img {
-    width:40px;
-    margin-right:5px
-   }
-   @media screen and (min-width: 768px) {
-    #services #services-body #single-service-section #service-sidebar .small-services-trigger {
-     text-align:left
+#job-page {
+  .text-section {
+    background: $black;
+  }
+  #current-positions {
+    background: $primary;
+    h5 {
+      max-width: 700px;
+      text-align: center;
+      margin: 0 auto;
     }
-   }
-   #services #services-body #single-service-section #service-sidebar .small-services-trigger:not(.current-item-showing):hover {
-    background:rgba(255,255,255,0.2)
-   }
-   #services #services-body #single-service-section #service-sidebar .small-services-trigger:not(.current-item-showing):hover img {
-    -webkit-transform:scale(1.4);
-    transform:scale(1.4)
-   }
-   #services #services-body #single-service-section #service-sidebar .current-item-showing {
-    background:#fff;
-    color:#ad2020;
-    pointer-events:none
-   }
-   #services #services-body #single-service-section #dynamic-services .single-service-tab {
-    height:0;
-    padding:0;
-    opacity:0;
-    visibility:hidden;
-    overflow:hidden;
-    -webkit-transition:0.5s all ease-in-out;
-    transition:0.5s all ease-in-out
-   }
-   #services #services-body #single-service-section #dynamic-services .single-service-tab.single-service-tab-visible {
-    height:auto;
-    padding:50px 20px;
-    opacity:1;
-    visibility:visible;
-    overflow:initial
-   }
-   #services #services-body #single-service-section #dynamic-services .single-service-tab h2 {
-    color:#fff;
-    font-size:42px;
-    font-weight:300;
-    margin-bottom:40px
-   }
-   #services #services-body #single-service-section #dynamic-services .single-service-tab p {
-    font-size:20px;
-    color:#fff;
-    font-weight:300;
-    margin-bottom:30px
-   }
-   #services #services-body #single-service-section #dynamic-services .single-service-tab ul {
-    margin-bottom:30px
-   }
-   #services #services-body #single-service-section #dynamic-services .single-service-tab ul li {
-    font-size:20px;
-    color:#fff;
-    font-weight:300;
-    margin-bottom:10px
-   }
-   #services #services-body #single-service-section.single-service-shown {
-    height:auto;
-    padding:20px 0;
-    opacity:1;
-    visibility:visible;
-    overflow:initial
-   }
+    .search-position-box {
+      flex: 0 100%;
+      max-width: 240px;
+      line-height: 50px;
+      border-radius: 10px;
+      margin: 5px 1%;
+      background: $black;
+      text-align: center;
+      cursor: pointer;
+      p {
+        color: $white;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 0;
+      }
+      &:hover {
+        background: $black-h;
+      }
+    }
+  }
+  .job-form-section {
+    .input-filenbtn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .input-file-container {
+        position: relative;
+        flex: 0 75%;
+        max-width: 75%;
+      }
+      #add-cv{
+        flex: 0 20%;
+        max-width: 20%;
+        height: auto;
+        background: $primary-dark;
+        color: $white;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 53.5px;
+        border: none;
+        &:hover{
+          background: $primary;
+        }
+      }
+    }
+    .input-file-trigger {
+      display: block;
+      padding: 14px 45px;
+      background: $primary;
+      color: #fff;
+      font-size: 1em;
+      transition: all 0.4s;
+      cursor: pointer;
+      border-radius: 10px;
+      @include under-sm {
+        padding: 14px 20px;
+      }
+    }
+    .input-file {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      left: 0;
+      opacity: 0;
+      padding: 14px 0;
+      cursor: pointer;
+    }
+    .input-file-container {
+      cursor: pointer;
+    }
+    .input-file:hover + .input-file-trigger,
+    .input-file:focus + .input-file-trigger,
+    .input-file-trigger:hover,
+    .input-file-trigger:focus {
+      background: $primary-dark;
+    }
+
+    .file-return {
+      margin: 0;
+    }
+    .file-return:not(:empty) {
+      margin: 1em 0;
+    }
+    .file-return {
+      font-style: italic;
+      font-size: 0.9em;
+      font-weight: bold;
+    }
+    .file-return:not(:empty):before {
+      content: "Selected file: ";
+      font-style: normal;
+      font-weight: normal;
+    }
+  }
+}

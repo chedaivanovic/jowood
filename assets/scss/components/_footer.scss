@@ -1,0 +1,178 @@
+footer {
+  background: $black;
+  color: $black;
+  padding-top: 60px;
+  .top-footer-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    @include under-md {
+      flex-wrap: wrap;
+    }
+    .footer-main {
+      text-align: center;
+      flex: 0 30%;
+      max-width: 30%;
+      .footer-logo {
+        width: 100%;
+        margin-bottom: 30px;
+        img {
+          max-width: 140px;
+          margin: 0 auto;
+        }
+      }
+      .social-networks {
+        justify-content: center;
+        li {
+          a {
+            background: $primary;
+            color: $black;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            i {
+              font-size: 32px;
+            }
+            &:hover {
+              background: $primary-h;
+              color: $white;
+            }
+          }
+        }
+      }
+      @include under-md {
+        flex: 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+    .footer-links {
+      flex: 0 30%;
+      max-width: 30%;
+      text-align: center;
+      h3 {
+        display: inline-block;
+        border-bottom: 1px solid rgba($white, 0.4);
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0 20px 10px;
+        margin-bottom: 20px;
+        font-family: $headingFont;
+        color: $primary;
+      }
+      div {
+        text-align: center;
+        a {
+          display: inline-block;
+          line-height: 24px;
+          color: $white;
+          position: relative;
+          font-weight: 300;
+          &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            height: 2px;
+            width: 0;
+            background: $white;
+          }
+          &:hover {
+            &::before {
+              left: 0;
+              width: 100%;
+            }
+          }
+        }
+      }
+      @include under-md {
+        flex: 0 45%;
+        max-width: 45%;
+      }
+      @include under-sm{
+        flex: 0 100%;
+        max-width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+    .footer-info {
+      flex: 0 30%;
+      max-width: 30%;
+      color: $white;
+      text-align: center;
+      h3 {
+        display: inline-block;
+        border-bottom: 1px solid rgba($white, 0.4);
+        font-size: 20px;
+        font-weight: 300;
+        padding: 0 20px 10px;
+        margin-bottom: 20px;
+        font-family: $headingFont;
+        color: $primary;
+      }
+      p {
+        color: $primary;
+        margin-bottom: 5px;
+        &.footer-info-head {
+          span {
+            font-size: 24px;
+            font-family: $headingFont;
+            font-weight: 700;
+          }
+          font-weight: 300;
+        }
+      }
+      a {
+        color: $white;
+        font-weight: 300;
+        position: relative;
+        display: inline-block;
+        margin-left: auto;
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          height: 2px;
+          width: 0;
+          background: $white;
+        }
+        &:hover {
+          &::before {
+            left: 0;
+            width: 100%;
+          }
+        }
+      }
+      @include under-md {
+        flex: 0 45%;
+        max-width: 45%;
+      }
+      @include under-sm{
+        flex: 0 100%;
+        max-width: 100%;
+      }
+    }
+  }
+  .footer-copyright {
+    line-height: 50px;
+    color: $white;
+    text-align: center;
+    border-top: 2px solid rgba($white, 0.2);
+    p {
+      margin-bottom: 0;
+    }
+    a {
+      display: inline-block;
+      color: $primary;
+    }
+    @include under-sm{
+      line-height: 26px;
+      padding: 10px 0;
+    }
+  }
+}

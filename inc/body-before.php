@@ -10,6 +10,7 @@
                         <li>
                             <a class="btn btn-white" href="partners.php">Partnerstvo?</a>
                         </li>
+                        <?php /*
                         <li>
                             <a target="_blank" href="">
                                 <i class="fab fa-facebook-f"></i>
@@ -24,7 +25,7 @@
                             <a target="_blank" href="">
                                 <i class="fab fa-youtube"></i>
                             </a>
-                        </li>
+                        </li> */?>
                     </ul>
                 </div>
             </div>

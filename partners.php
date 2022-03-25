@@ -17,9 +17,6 @@ require_once('forms/keys.php');
             <div class="row">
                 <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2">
                     <form method="post" action="forms/partners.php" id="partners-form" class="row">
-                        <div class="col-12 text-center">
-                            <h2 class="mb-4">Kontaktirajte nas</h2>
-                        </div>
                         <div class="col-12 col-md-6 mb-3">
                             <input id="contact-name" required name="name" type="text" placeholder="Vaše ime *" class="input-style">
                         </div>
@@ -40,10 +37,10 @@ require_once('forms/keys.php');
                         </div>
                         <div class="col-6 mb-3"></div>
                         <div id="message" class="col-12"></div>
-                            <div class="col-6 mb-3"></div>
-                            <div class="col-6 mb-3">
-                                <button class="g-recaptcha btn btn-block btn-dark text-uppercase font-weight-light" data-sitekey="<?php echo $site; ?>" data-callback="onSubmit" data-action="submit"><i class="far fa-paper-plane"></i> Pošaljite</button>
-                            </div>
+                        <div class="col-6 mb-3"></div>
+                        <div class="col-6 mb-3">
+                            <button class="g-recaptcha btn btn-block btn-dark text-uppercase font-weight-light" data-sitekey="<?php echo $site; ?>" data-callback="onSubmit" data-action="submit"><i class="far fa-paper-plane"></i> Pošaljite</button>
+                        </div>
                     </form>
                 </div>
             </div>

@@ -4,7 +4,7 @@
             <div class="top-footer-holder">
                 <div class="footer-main">
                     <a href="index.php" class="footer-logo">
-                        <img src="assets/img/logo/jowood-logo-light.svg" alt="">
+                        <img src="assets/img/logo/jowood-logo-light.svg" alt="JoWood | Logo light">
                     </a>
                     <ul class="social-networks">
                         <li>

@@ -8,8 +8,8 @@ include('inc/body-before.php');
 ?>
 
 <section id="hero">
-    <img id="main-hero-img" src="assets/img/hero.jpg" alt="">
-    <img id="main-hero-head" src="assets/img/logo/jowood-logo-head.svg" alt="">
+    <img id="main-hero-img" src="assets/img/hero.jpg" alt="JoWood | Hero img">
+    <img id="main-hero-head" src="assets/img/logo/jowood-logo-head.svg" alt="JoWood | Bear img">
     <div class="hero-content">
         <div class="wrapper">
             <div class="hero-title text-white text-center" data-aos="zoom-in" data-duration="600">

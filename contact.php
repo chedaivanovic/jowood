@@ -1,4 +1,7 @@
 <?php
+$ogUrl = 'contact.php';
+$ogDesc = 'Kontaktirajte nas, dajte nam sugestije ili primedbe. Pitajte sve što vas zanima, a mi ćemo se uvek truditi da vam što pre odgovorimo';
+$ogImg = 'assets/img/breadcrumbs/contact.jpg';
 $pageTitle = 'Kontakt';
 $pageClass = 'contact';
 include('inc/body-before.php');

@@ -1,4 +1,7 @@
 <?php
+$ogUrl = 'partners.php';
+$ogDesc = '"JoWood" je otvoren za partnerske kompanije kojima nudimo brojne pogodnosti. Ako imate prijedlog za saradnju, pozivamo vas da nam pišete. ';
+$ogImg = 'assets/img/breadcrumbs/partners.jpg';
 $pageTitle = 'Partneri';
 $pageClass = 'partners';
 include('inc/body-before.php');

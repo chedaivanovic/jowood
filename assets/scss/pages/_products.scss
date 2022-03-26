@@ -2,6 +2,15 @@
   .products-intro-text{
     padding: 100px;
     background: $white;
+    @include under-lg{
+      padding: 80px 50px;
+    }
+    @include under-md{
+      padding:60px 30px;
+    }
+    @include under-sm{
+      padding: 50px 0;
+    }
   }
   #prod-floors-tab {
     background: linear-gradient(to bottom right, $black-h, $black);

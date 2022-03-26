@@ -6,5 +6,4 @@
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="assets/js/app.js?v=1.0.3"></script>
 </body>
-
 </html>

@@ -6,7 +6,6 @@ $pageTitle = 'Početna strana';
 $pageClass = 'home';
 include('inc/body-before.php');
 ?>
-
 <section id="hero">
     <img id="main-hero-img" src="assets/img/hero.jpg" alt="JoWood | Hero img">
     <img id="main-hero-head" src="assets/img/logo/jowood-logo-head.svg" alt="JoWood | Bear img">
@@ -22,7 +21,6 @@ include('inc/body-before.php');
         </div>
     </div>
 </section>
-
 <section class="home-about-us">
     <div class="wrapper text-center">
         <h1 class="home-about-title mb-4">Upoznajte "Royal Oak" parkete iz kompanije "JoWood"</h1>
@@ -34,7 +32,6 @@ include('inc/body-before.php');
         <span><a class="cta-btn cta-btn-secondary" href="about.php">Pročitajte više...</a></span>
     </div>
 </section>
-
 <section id="floors-home">
     <div class="wrapper">
         <div class="floor-images d-none">
@@ -133,7 +130,6 @@ include('inc/body-before.php');
         </div>
     </div>
 </section>
-
 <section class="home-partners">
     <div class="wrapper text-center">
         <h2>Saradnja</h2>
@@ -165,7 +161,6 @@ include('inc/body-before.php');
         </div>
     </div>
 </section>
-
 <?php
 include('inc/body-after.php');
 ?>

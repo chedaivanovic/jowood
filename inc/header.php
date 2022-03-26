@@ -11,7 +11,6 @@
     <meta name="robots" content="index, follow">
     <meta name="copyright" content="Jovan Grahovac, JoWood">
     <meta name="rating" content="general">
-
     <!-- Open Graph Meta -->
     <meta property="og:type" content="business.business">
     <meta property="og:title" content="JoWood | <?php echo $pageTitle; ?>">
@@ -22,21 +21,15 @@
     <meta property="business:contact_data:locality" content="Banja Luka">
     <meta property="business:contact_data:postal_code" content="78000">
     <meta property="business:contact_data:country_name" content="Bosnia and Herzegovina">
-
     <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
     <!-- Scripts -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/9ebe8cbaa6.js" crossorigin="anonymous"></script>
-
     <!-- Css -->
     <link rel="stylesheet" href="node_modules/lightbox2/src/css/lightbox.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
     <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.6">
-    <!-- captcha -->
-    <?php
-    require('functions.php');
-    ?>
     <!-- Schema org -->
     <script type="application/ld+json">
         {
@@ -63,5 +56,7 @@
             "sameAs": []
         }
     </script>
-
+    <?php
+    require('functions.php');
+    ?>
 </head>

@@ -17,6 +17,9 @@ function createSvg($name) {
 }
 
 function createBreadcrumb($title, $bg){
+    if($bg == 'error'){
+        $bg = 'products';
+    }
     echo '<div class="breadcrumbs" style="background-image: url(\'assets/img/breadcrumbs/' . $bg . '.jpg\')">
                             <h1 id="breadcrumb-title">' . $title . '</h1>
                         </div>';

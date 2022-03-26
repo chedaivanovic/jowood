@@ -1,4 +1,7 @@
 <?php
+$ogUrl = 'products.php';
+$ogDesc = 'Predstavili smo vam samo mali dio naše ponude inovativnih, modernih i jedinstvenih parketa, kroz izbor najljepših kombinacija koje smo dizajnirali posebno za vas. Cube pod | Honeycomb pod | Hexagon pod | Line pod | Flower pod | Triangle pod';
+$ogImg = 'assets/img/breadcrumbs/products.jpg';
 $pageTitle = 'Proizvodi';
 $pageClass = 'products';
 include('inc/body-before.php');

@@ -1,4 +1,7 @@
 <?php
+$ogUrl = 'about.php';
+$ogDesc = 'Ko smo mi? Koliko dugo postojimo? Šta je Royal Oak program? Zašto smo eco friendly? Šta je 3D parket?';
+$ogImg = 'assets/img/breadcrumbs/about.jpg';
 $pageTitle = 'O nama';
 $pageClass = 'about';
 include('inc/body-before.php');

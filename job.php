@@ -1,4 +1,7 @@
 <?php
+$ogUrl = 'job.php';
+$ogDesc = 'Iskusni ste u obradi drveta i želite posao u našoj kompaniji? Javite nam se, napišite nam par riječi o sebi ili pošaljite CV.';
+$ogImg = 'assets/img/breadcrumbs/job.jpg';
 $pageTitle = 'Zaposlenje';
 $pageClass = 'job';
 include('inc/body-before.php');

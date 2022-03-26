@@ -1,4 +1,7 @@
 <?php
+$ogUrl = '';
+$ogDesc = 'Mi smo JoWood, proizvodimo najinovativnije i jedinstvene parkete od hrastovine. Nudimo vam kvalitet i vrhunski dizajnirana rešenja za podove u vašem domu, a pritom smo i eco friendly!';
+$ogImg = 'assets/img/logo/jowood-logo.png';
 $pageTitle = 'Početna strana';
 $pageClass = 'home';
 include('inc/body-before.php');

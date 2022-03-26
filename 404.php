@@ -1,4 +1,7 @@
 <?php
+$ogUrl = '404.php';
+$ogDesc = 'Error404. Stanica koju ste izabrali ne postoji.';
+$ogImg = 'assets/img/breadcrumbs/products.jpg';
 $pageTitle = 'Nepostojeća strana';
 $pageClass = 'error';
 include('inc/body-before.php');

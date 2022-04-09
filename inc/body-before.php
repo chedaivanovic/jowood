@@ -33,11 +33,11 @@
         <div id="mainHeader">
             <div class="wrapper">
                 <div class="d-flex justify-content-between align-items-center">
-                    <a href="index.php" class="logo-holder <?php echo $pageClass == 'home' ? 'home-logo' : ''; ?>">
+                    <a href="/" class="logo-holder <?php echo $pageClass == 'home' ? 'home-logo' : ''; ?>">
                         <img src="assets/img/logo/jowood-logo-white.svg" alt="Jowood Logo">
                     </a>
                     <nav id="mainMenu" class="d-md-flex align-items-center justify-content-between">
-                        <a class="mr-3 text-white" href="index.php">
+                        <a class="mr-3 text-white" href="/">
                             <h2 class="font-weight-light h3">Početna</h2>
                         </a>
                         <a class="mr-3 text-white" href="products.php">

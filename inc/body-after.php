@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="top-footer-holder">
                 <div class="footer-main">
-                    <a href="index.php" class="footer-logo">
+                    <a href="/" class="footer-logo">
                         <img src="assets/img/logo/jowood-logo-light.svg" alt="JoWood | Logo light">
                     </a>
                     <ul class="social-networks">
@@ -29,7 +29,7 @@
                         <h3>Linkovi</h3>
                     </div>
                     <div class="row">
-                        <div class="col-6 col-md-12 col-lg-6"><a href="index.php">Početna Strana</a></div>
+                        <div class="col-6 col-md-12 col-lg-6"><a href="/">Početna Strana</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="products.php">Proizvodi</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="about.php">O JoWood-u</a></div>
                         <div class="col-6 col-md-12 col-lg-6"><a href="contact.php">Kontakt</a></div>

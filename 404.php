@@ -13,7 +13,7 @@ createBreadcrumb($pageTitle, $pageClass);
         <p class="display-1 font-weight-light">Error 404</p>
         <h2 class="mb-4 h1 font-weight-bold ">Stranica koju tražite ne postoji</h2>
         <h3 class="font-weight-light mb-5">Da li želite da se vratite na početnu stranu?</h3>
-        <a href="index.php" class="cta-btn cta-btn-primary">Nazad na početnu</a>
+        <a href="/" class="cta-btn cta-btn-primary">Nazad na početnu</a>
     </div>
 </div>
 

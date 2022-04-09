@@ -12,7 +12,7 @@ include('inc/body-before.php');
     <div class="hero-content">
         <div class="wrapper">
             <div class="hero-title text-white text-center" data-aos="zoom-in" data-duration="600">
-                <h2 class="hero-heading-sec font-weight-light mb-2" data-aos="fade-right" data-aos-delay="700">Tražite podlogu za zivot?</h2>
+                <p class="h2 hero-heading-sec font-weight-light mb-2" data-aos="fade-right" data-aos-delay="700">Tražite podlogu za zivot?</p>
                 <p class="hero-heading-main font-weight-light mb-4" data-aos="fade-left" data-aos-delay="1400">Dobrodošli u svijet 3D parketa!</p>
                 <span data-aos="fade-up" data-aos-delay="2100">
                     <a class="cta-btn cta-btn-primary" href="products.php">Pogledajte naše podove</a>
@@ -132,7 +132,7 @@ include('inc/body-before.php');
 </section>
 <section class="home-partners">
     <div class="wrapper text-center">
-        <h2>Saradnja</h2>
+        <p class="h2">Saradnja</p>
         <div class="row">
             <div class="offset-1 col-10 col-md-4 d-flex mb-4 mb-md-0">
                 <div class="home-partners-card">

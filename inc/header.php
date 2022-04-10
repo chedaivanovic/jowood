@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoWood | <?= $pageTitle ?></title>
-    <link rel="preload" href="assets/css/main.min.css?v=1.0.7" as="style">
-    <link rel="preload" href="assets/js/app.js?v=1.0.4" as="style">
+    <link rel="preload" href="assets/css/main.min.css?v=1.0.8" as="style">
+    <link rel="preload" href="assets/js/app.js?v=1.0.4" as="script">
     <meta name="description" content="JoWood |  Kompanija za izradu podova od drveta. Royal Oak program podova. <?php echo $ogDesc; ?>">
     <meta name="author" content="https://cedomirivanovic.global-webmasters.com/">
     <meta name="robots" content="index, follow">
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="node_modules/lightbox2/src/css/lightbox.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <?php /* <link rel="stylesheet" href="node_modules/aos/dist/aos.css"> */ ?>
-    <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.7">
+    <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.8">
     <!-- Canonical -->
     <link rel="canonical" href="https://jowood.ba/<?php echo $ogUrl; ?>">
     <!-- Scripts -->

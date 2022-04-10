@@ -1,8 +1,8 @@
-//const { each } = require("jquery");
+// //const { each } = require("jquery");
 
-AOS.init({
-    once: true
-});
+// AOS.init({
+//     once: true
+// });
 
 let year = new Date().getFullYear();
 document.getElementById("year").innerHTML = year;

@@ -1,6 +1,6 @@
 <?php include('inc/header.php'); ?>
 
-<body id="<?= $pageClass ?>">
+<body id="<?= $pageClass ?>" style="opacity:0;">
     <header>
         <div id="topHeader">
             <div class="wrapper">
@@ -37,7 +37,7 @@
                         <img src="assets/img/logo/jowood-logo-white.svg" alt="Jowood Logo">
                     </a>
                     <nav id="mainMenu" class="d-md-flex align-items-center justify-content-between">
-                        <a class="mr-3 text-white" href="/">
+                        <a class="mr-3 text-white" href="index.php">
                             <h2 class="font-weight-light h3">Početna</h2>
                         </a>
                         <a class="mr-3 text-white" href="products.php">

@@ -1,3 +1,33 @@
+@keyframes inRight {
+  from{
+    margin-left: -100%;
+    opacity: 0;
+  }
+  to{
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+@keyframes inLeft {
+  from{
+    margin-right: -100%;
+    opacity: 0;
+  }
+  to{
+    margin-right: 0;
+    opacity: 1;
+  }
+}
+@keyframes inTop {
+  from{
+    margin-bottom: -100%;
+    opacity: 0;
+  }
+  to{
+    margin-bottom: 0;
+    opacity: 1;
+  }
+}
 #hero {
   position: relative;
   max-width: 100vw;
@@ -61,10 +91,15 @@
           font-family: $headingFont;
           font-size: 40px;
           line-height: 1.2;
+          animation: inLeft 1s .8s 1 forwards;
         }
         .hero-heading-sec {
           font-size: 28px;
           line-height: 1.2;
+          animation: inRight 1s .5s 1 forwards;
+        }
+        .home-hero-btn-holder{
+          animation: inTop 1s 1.5s 1 forwards;
         }
         @include under-lg {
           padding: 20px 24px;

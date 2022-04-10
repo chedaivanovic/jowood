@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoWood | <?= $pageTitle ?></title>
-    <link rel="preload" href="assets/css/main.min.css?v=1.0.6" as="style">
+    <link rel="preload" href="assets/css/main.min.css?v=1.0.7" as="style">
+    <link rel="preload" href="assets/js/app.js?v=1.0.4" as="style">
     <meta name="description" content="JoWood |  Kompanija za izradu podova od drveta. Royal Oak program podova. <?php echo $ogDesc; ?>">
     <meta name="author" content="https://cedomirivanovic.global-webmasters.com/">
     <meta name="robots" content="index, follow">
@@ -26,9 +27,10 @@
     <!-- Css -->
     <link rel="stylesheet" href="node_modules/lightbox2/src/css/lightbox.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="node_modules/aos/dist/aos.css"> -->
-    <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.6">
-
+    <?php /* <link rel="stylesheet" href="node_modules/aos/dist/aos.css"> */ ?>
+    <link rel="stylesheet" href="assets/css/main.min.css?v=1.0.7">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://jowood.ba/<?php echo $ogUrl; ?>">
     <!-- Scripts -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/9ebe8cbaa6.js" crossorigin="anonymous"></script>

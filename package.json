@@ -17,7 +17,6 @@
   },
   "homepage": "https://github.com/chedaivanovic/jowood#readme",
   "dependencies": {
-    "aos": "^2.3.4",
     "bootstrap": "^4.6.1",
     "jquery": "^3.6.0",
     "lightbox2": "^2.11.3"

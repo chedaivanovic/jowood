@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 body {
@@ -8,6 +9,7 @@ body {
   padding: 44px 0 0;
   font-family: $roboto;
   position: relative;
+  transition: none;
 }
 a {
   display: block;
@@ -17,14 +19,7 @@ a {
     text-decoration: none;
   }
 }
-*,
-*:hover,
-*::before,
-*::after,
-*:hover::before,
-*:hover::after {
-  transition: 0.3s all ease-in-out;
-}
+
 ul {
   text-decoration: none;
   list-style: none;
@@ -68,7 +63,7 @@ ul {
       color: $white;
     }
   }
-  @include under-lg{
+  @include under-lg {
     line-height: 44px;
     padding: 0 30px;
     font-size: 16px;
@@ -108,21 +103,21 @@ ul {
 textarea.input-style {
   min-height: 200px;
 }
-select.input-style{
+select.input-style {
   height: 40px;
 }
-.section-padding{
+.section-padding {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-ul.doted-ul{
-  li{
+ul.doted-ul {
+  li {
     position: relative;
     padding-left: 25px;
-    &::before{
-      content: '\f192';
+    &::before {
+      content: "\f192";
       font-size: 16px;
-      font-family: 'Font Awesome 5 Free';
+      font-family: "Font Awesome 5 Free";
       position: absolute;
       left: 0;
       top: 50%;
@@ -130,7 +125,7 @@ ul.doted-ul{
     }
   }
 }
-.max-w-md{
+.max-w-md {
   width: 100%;
   max-width: 768px;
   margin-right: auto;

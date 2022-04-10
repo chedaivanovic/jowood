@@ -11,10 +11,10 @@ include('inc/body-before.php');
     <img id="main-hero-head" src="assets/img/logo/jowood-logo-head.svg" alt="JoWood | Bear img">
     <div class="hero-content">
         <div class="wrapper">
-            <div class="hero-title text-white text-center" data-aos="zoom-in" data-duration="600">
-                <p class="h2 hero-heading-sec font-weight-light mb-2" data-aos="fade-right" data-aos-delay="700">Tražite podlogu za zivot?</p>
-                <p class="hero-heading-main font-weight-light mb-4" data-aos="fade-left" data-aos-delay="1400">Dobrodošli u svijet 3D parketa!</p>
-                <span data-aos="fade-up" data-aos-delay="2100">
+            <div class="hero-title text-white text-center">
+                <p class="h2 hero-heading-sec font-weight-light mb-2" style="opacity: 0; margin-left:-100%;">Tražite podlogu za zivot?</p>
+                <p class="hero-heading-main font-weight-light mb-4" style="opacity: 0; margin-right:-100%;">Dobrodošli u svijet 3D parketa!</p>
+                <span class="home-hero-btn-holder" style="opacity: 0; margin-bottom:-100%;">
                     <a class="cta-btn cta-btn-primary" href="products.php">Pogledajte naše podove</a>
                 </span>
             </div>

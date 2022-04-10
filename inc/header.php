@@ -15,7 +15,7 @@
     <meta name="rating" content="general">
     <!-- Open Graph Meta -->
     <meta property="og:type" content="business.business">
-    <meta property="og:title" content="JoWood | <?php echo $pageTitle; ?>">
+    <meta property="og:title" content="JoWood Podovi | <?php echo $pageTitle; ?>">
     <meta property="og:url" content="https://jowood.ba/<?php echo $ogUrl; ?>">
     <meta property="og:image" content="https://jowood.ba/<?php echo $ogImg; ?>">
     <meta property="og:description" content="JoWood |  Kompanija za izradu podova od drveta. Royal Oak program podova. <?php echo $ogDesc; ?>">

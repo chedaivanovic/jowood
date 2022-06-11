@@ -22,15 +22,17 @@ require_once('forms/keys.php');
                     <?php /* <p><i class="fas fa-industry"></i> Put za Lamovitu 1, Omarska</p> */ ?>
                     <a href="mailto:office@jowood.ba"><span class="icon-holder"><i class="fas fa-envelope"></i></span> office@jowood.ba</a>
                     <a href="tel:+38766221588"><span class="icon-holder"><i class="fas fa-phone"></i></span> +387 66 221 588</a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                        <span class="icon-holder"><i class="fab fa-facebook-f"></i></span> FB: JoWood 3D Podovi
+                    <a href="https://www.facebook.com/JoWoodparketi" target="_blank">
+                        <span class="icon-holder"><i class="fab fa-facebook-f"></i></span> @JoWoodparketi
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
-                        <span class="icon-holder"><i class="fab fa-instagram"></i></span> IG: jowoodpodovi
+                    <a href="https://www.instagram.com/jowood_3dparket/" target="_blank">
+                        <span class="icon-holder"><i class="fab fa-instagram"></i></span> @jowood_3dparket
                     </a>
-                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                    <?php /*
+                    <a href="http://" target="_blank">
                         <span class="icon-holder"><i class="fab fa-youtube"></i></span> YT: jowoodpodovi
                     </a>
+                    */ ?>
                 </div>
             </div>
             <div class="col-12 col-md-6 px-4 d-flex">

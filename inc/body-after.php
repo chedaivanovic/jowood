@@ -8,20 +8,20 @@
                     </a>
                     <ul class="social-networks">
                         <li>
-                            <a target="_blank" href="">
+                            <a target="_blank" href="https://www.facebook.com/JoWoodparketi">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
-                            <a target="_blank" href="">
+                            <a target="_blank" href="https://www.instagram.com/jowood_3dparket/">
                                 <i class="fab fa-instagram"></i>
                             </a>
                         </li>
-                        <li>
+                       <?php /* <li>
                             <a target="_blank" href="">
                                 <i class="fab fa-youtube"></i>
                             </a>
-                        </li>
+                        </li> */?>
                     </ul>
                 </div>
                 <div class="footer-links">

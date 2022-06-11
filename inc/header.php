@@ -57,7 +57,10 @@
                 "opens": "08:00",
                 "closes": "20:00"
             }],
-            "sameAs": []
+            "sameAs": [
+                "https://www.facebook.com/JoWoodparketi",
+                "https://www.instagram.com/jowood_3dparket/"
+            ]
         }
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
